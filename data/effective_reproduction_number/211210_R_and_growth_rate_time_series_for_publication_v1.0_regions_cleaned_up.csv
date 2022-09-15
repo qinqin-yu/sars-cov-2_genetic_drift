@@ -1,0 +1,721 @@
+﻿Date,Epiweek,Region,Lower bound,Upper bound,Certainty criteria met,Estimate based on fewer days or lower quality data
+29-May-20,22,East of England,.,.,1,0
+05-Jun-20,23,East of England,.,.,1,0
+12-Jun-20,24,East of England,0.7,0.9,1,0
+19-Jun-20,25,East of England,0.7,0.9,1,0
+26-Jun-20,26,East of England,0.7,0.9,1,0
+03-Jul-20,27,East of England,0.7,0.9,1,0
+10-Jul-20,28,East of England,0.7,1.0,0,0
+17-Jul-20,29,East of England,0.8,1.0,1,0
+24-Jul-20,30,East of England,0.8,1.0,0,0
+31-Jul-20,31,East of England,0.7,1.0,0,0
+07-Aug-20,32,East of England,0.7,0.9,0,0
+14-Aug-20,33,East of England,0.8,1.0,1,0
+21-Aug-20,34,East of England,0.8,1.0,0,0
+28-Aug-20,35,East of England,0.8,1.0,0,0
+04-Sep-20*,36,East of England,0.8,1.0,0,1
+11-Sep-20,37,East of England,0.9,1.2,1,0
+18-Sep-20,38,East of England,1.0,1.3,1,0
+25-Sep-20,39,East of England,1.1,1.3,1,0
+02-Oct-20,40,East of England,1.0,1.3,1,0
+09-Oct-20,41,East of England,1.3,1.6,1,0
+16-Oct-20,42,East of England,1.3,1.5,1,0
+23-Oct-20,43,East of England,1.2,1.4,1,0
+30-Oct-20,44,East of England,1.2,1.4,1,0
+06-Nov-20,45,East of England,1.1,1.4,1,0
+13-Nov-20,46,East of England,1.1,1.4,1,0
+20-Nov-20,47,East of England,1.0,1.3,1,0
+27-Nov-20,48,East of England,0.9,1.1,1,0
+04-Dec-20,49,East of England,0.9,1.0,1,0
+11-Dec-20,50,East of England,0.9,1.1,1,0
+18-Dec-20,51,East of England,1.2,1.4,1,0
+23-Dec-20*,52,East of England,1.2,1.5,1,1
+08-Jan-21*,54,East of England,1.1,1.3,1,1
+15-Jan-21,55,East of England,1.0,1.3,1,0
+22-Jan-21,56,East of England,0.6,0.9,1,0
+29-Jan-21,57,East of England,0.7,0.9,1,0
+05-Feb-21,58,East of England,0.7,0.9,1,0
+12-Feb-21,59,East of England,0.7,0.9,1,0
+19-Feb-21,60,East of England,0.6,0.8,1,0
+26-Feb-21,61,East of England,0.6,0.8,1,0
+05-Mar-21,62,East of England,0.6,0.8,1,0
+12-Mar-21,63,East of England,0.6,0.8,1,0
+19-Mar-21,64,East of England,0.6,0.9,1,0
+26-Mar-21,65,East of England,0.7,1.0,1,0
+02-Apr-21,66,East of England,0.7,1.0,1,0
+09-Apr-21,67,East of England,0.7,1.0,0,0
+16-Apr-21,68,East of England,0.7,1.0,0,0
+23-Apr-21,69,East of England,0.8,1.1,0,0
+30-Apr-21,70,East of England,0.8,1.1,1,0
+07-May-21*,71,East of England,0.8,1.1,1,1
+14-May-21,72,East of England,0.8,1.1,1,0
+21-May-21,73,East of England,0.8,1.1,1,0
+28-May-21,74,East of England,0.9,1.1,1,0
+04-Jun-21*,75,East of England,1.0,1.2,1,1
+11-Jun-21,76,East of England,1.1,1.4,1,0
+18-Jun-21,77,East of England,1.1,1.3,1,0
+25-Jun-21,78,East of England,1.1,1.3,1,0
+02-Jul-21,79,East of England,1.0,1.2,1,0
+09-Jul-21,80,East of England,1.1,1.5,1,0
+16-Jul-21,81,East of England,1.2,1.5,1,0
+23-Jul-21,82,East of England,1.3,1.5,1,0
+30-Jul-21,83,East of England,1.3,1.5,1,0
+06-Aug-21,84,East of England,0.9,1.2,1,0
+13-Aug-21,85,East of England,0.8,1.1,1,0
+20-Aug-21,86,East of England,0.9,1.2,1,0
+27-Aug-21,87,East of England,1.0,1.2,1,0
+03-Sep-21,88,East of England,0.9,1.2,1,0
+10-Sep-21,89,East of England,0.9,1.1,1,0
+17-Sep-21,90,East of England,0.9,1.1,1,0
+24-Sep-21,91,East of England,0.8,1.0,1,0
+01-Oct-21,92,East of England,0.8,1.1,1,0
+08-Oct-21,93,East of England,0.9,1.2,1,0
+15-Oct-21,94,East of England,0.9,1.2,1,0
+22-Oct-21,95,East of England,.,.,0,0
+29-Oct-21,96,East of England,1.1,1.3,1,0
+05-Nov-21,97,East of England,0.9,1.2,1,0
+12-Nov-21,98,East of England,0.8,1.0,1,0
+19-Nov-21,99,East of England,0.8,1.0,1,0
+26-Nov-21,100,East of England,0.9,1.1,1,0
+03-Dec-21,101,East of England,0.9,1.2,1,0
+10-Dec-21,102,East of England,0.9,1.1,1,0
+29-May-20,22,London,.,.,1,0
+05-Jun-20,23,London,.,.,1,0
+12-Jun-20,24,London,0.8,1.0,1,0
+19-Jun-20,25,London,0.7,1.0,1,0
+26-Jun-20,26,London,0.6,0.9,1,0
+03-Jul-20,27,London,0.8,1.1,1,0
+10-Jul-20,28,London,0.7,1.0,0,0
+17-Jul-20,29,London,0.8,1.1,0,0
+24-Jul-20,30,London,0.8,1.0,0,0
+31-Jul-20,31,London,0.8,1.0,0,0
+07-Aug-20,32,London,0.8,1.1,0,0
+14-Aug-20,33,London,0.8,1.0,0,0
+21-Aug-20,34,London,0.9,1.1,0,0
+28-Aug-20,35,London,0.9,1.1,0,0
+04-Sep-20*,36,London,0.9,1.1,0,1
+11-Sep-20,37,London,1.1,1.3,1,0
+18-Sep-20,38,London,1.1,1.4,1,0
+25-Sep-20,39,London,1.2,1.5,1,0
+02-Oct-20,40,London,1.2,1.6,1,0
+09-Oct-20,41,London,1.2,1.4,1,0
+16-Oct-20,42,London,1.1,1.4,1,0
+23-Oct-20,43,London,1.1,1.3,1,0
+30-Oct-20,44,London,1.1,1.3,1,0
+06-Nov-20,45,London,1.1,1.3,1,0
+13-Nov-20,46,London,1.0,1.2,1,0
+20-Nov-20,47,London,1.0,1.2,1,0
+27-Nov-20,48,London,1.0,1.1,1,0
+04-Dec-20,49,London,0.9,1.1,1,0
+11-Dec-20,50,London,0.9,1.1,1,0
+18-Dec-20,51,London,1.1,1.3,1,0
+23-Dec-20*,52,London,1.2,1.5,1,1
+08-Jan-21*,54,London,1.1,1.4,1,1
+15-Jan-21,55,London,0.9,1.2,1,0
+22-Jan-21,56,London,0.7,0.9,1,0
+29-Jan-21,57,London,0.6,0.9,1,0
+05-Feb-21,58,London,0.6,0.8,1,0
+12-Feb-21,59,London,0.6,0.8,1,0
+19-Feb-21,60,London,0.6,0.8,1,0
+26-Feb-21,61,London,0.6,0.8,1,0
+05-Mar-21,62,London,0.6,0.8,1,0
+12-Mar-21,63,London,0.6,0.8,1,0
+19-Mar-21,64,London,0.6,0.9,1,0
+26-Mar-21,65,London,0.7,0.9,1,0
+02-Apr-21,66,London,0.7,1.0,0,0
+09-Apr-21,67,London,0.8,1.0,0,0
+16-Apr-21,68,London,0.8,1.1,0,0
+23-Apr-21,69,London,0.8,1.1,0,0
+30-Apr-21,70,London,0.8,1.1,1,0
+07-May-21*,71,London,0.8,1.1,1,1
+14-May-21,72,London,0.8,1.0,1,0
+21-May-21,73,London,0.9,1.1,1,0
+28-May-21,74,London,1.0,1.2,1,0
+04-Jun-21*,75,London,1.0,1.2,1,1
+11-Jun-21,76,London,1.1,1.4,1,0
+18-Jun-21,77,London,1.1,1.4,1,0
+25-Jun-21,78,London,1.1,1.3,1,0
+02-Jul-21,79,London,1.0,1.2,1,0
+09-Jul-21,80,London,1.1,1.4,1,0
+16-Jul-21,81,London,1.2,1.4,1,0
+23-Jul-21,82,London,1.2,1.4,1,0
+30-Jul-21,83,London,1.2,1.5,1,0
+06-Aug-21,84,London,0.9,1.2,1,0
+13-Aug-21,85,London,0.8,1.0,1,0
+20-Aug-21,86,London,0.9,1.1,1,0
+27-Aug-21,87,London,0.9,1.1,1,0
+03-Sep-21,88,London,0.8,1.1,1,0
+10-Sep-21,89,London,0.8,1.0,1,0
+17-Sep-21,90,London,0.9,1.1,1,0
+24-Sep-21,91,London,0.8,1.0,1,0
+01-Oct-21,92,London,0.8,1.0,1,0
+08-Oct-21,93,London,0.9,1.1,1,0
+15-Oct-21,94,London,0.9,1.1,1,0
+22-Oct-21,95,London,.,.,0,0
+29-Oct-21,96,London,1.0,1.2,1,0
+05-Nov-21,97,London,1.0,1.2,1,0
+12-Nov-21,98,London,0.8,1.0,1,0
+19-Nov-21,99,London,0.9,1.1,1,0
+26-Nov-21,100,London,0.9,1.2,1,0
+03-Dec-21,101,London,0.9,1.2,1,0
+10-Dec-21,102,London,1.0,1.2,1,0
+29-May-20,22,East Midlands,.,.,1,0
+05-Jun-20,23,East Midlands,.,.,1,0
+12-Jun-20,24,East Midlands,0.8,1.0,1,0
+19-Jun-20,25,East Midlands,0.8,1.0,1,0
+26-Jun-20,26,East Midlands,0.7,0.9,1,0
+03-Jul-20,27,East Midlands,0.8,1.0,1,0
+10-Jul-20,28,East Midlands,0.7,0.9,1,0
+17-Jul-20,29,East Midlands,0.7,1.0,1,0
+24-Jul-20,30,East Midlands,0.7,1.0,1,0
+31-Jul-20,31,East Midlands,0.7,0.9,1,0
+07-Aug-20,32,East Midlands,0.8,1.0,0,0
+14-Aug-20,33,East Midlands,0.8,1.0,0,0
+21-Aug-20,34,East Midlands,0.8,1.0,1,0
+28-Aug-20,35,East Midlands,0.8,1.1,0,0
+04-Sep-20*,36,East Midlands,0.8,1.0,1,1
+11-Sep-20,37,East Midlands,0.9,1.1,1,0
+18-Sep-20,38,East Midlands,1.2,1.5,1,0
+25-Sep-20,39,East Midlands,1.2,1.5,1,0
+02-Oct-20,40,East Midlands,1.2,1.5,1,0
+09-Oct-20,41,East Midlands,1.2,1.5,1,0
+16-Oct-20,42,East Midlands,1.2,1.5,1,0
+23-Oct-20,43,East Midlands,1.1,1.3,1,0
+30-Oct-20,44,East Midlands,1.2,1.4,1,0
+06-Nov-20,45,East Midlands,1.1,1.3,1,0
+13-Nov-20,46,East Midlands,1.1,1.3,1,0
+20-Nov-20,47,East Midlands,1.0,1.2,1,0
+27-Nov-20,48,East Midlands,0.9,1.1,1,0
+04-Dec-20,49,East Midlands,0.8,0.9,1,0
+11-Dec-20,50,East Midlands,0.8,1.0,1,0
+18-Dec-20,51,East Midlands,1.0,1.2,1,0
+23-Dec-20*,52,East Midlands,1.0,1.2,1,1
+08-Jan-21*,54,East Midlands,1.1,1.4,1,1
+15-Jan-21,55,East Midlands,1.2,1.4,1,0
+22-Jan-21,56,East Midlands,0.9,1.2,1,0
+29-Jan-21,57,East Midlands,0.8,1.1,1,0
+05-Feb-21,58,East Midlands,0.7,0.9,1,0
+12-Feb-21,59,East Midlands,0.7,0.9,1,0
+19-Feb-21,60,East Midlands,0.6,0.9,1,0
+26-Feb-21,61,East Midlands,0.7,0.9,1,0
+05-Mar-21,62,East Midlands,0.7,0.9,1,0
+12-Mar-21,63,East Midlands,0.6,0.8,1,0
+19-Mar-21,64,East Midlands,0.6,0.9,1,0
+26-Mar-21,65,East Midlands,0.7,1.0,1,0
+02-Apr-21,66,East Midlands,0.7,1.0,1,0
+09-Apr-21,67,East Midlands,0.7,1.0,1,0
+16-Apr-21,68,East Midlands,0.7,1.0,0,0
+23-Apr-21,69,East Midlands,0.7,0.9,0,0
+30-Apr-21,70,East Midlands,0.7,1.0,1,0
+07-May-21*,71,East Midlands,0.8,1.0,1,1
+14-May-21,72,East Midlands,0.8,1.0,1,0
+21-May-21,73,East Midlands,0.8,1.0,1,0
+28-May-21,74,East Midlands,0.9,1.0,1,0
+04-Jun-21*,75,East Midlands,1.0,1.2,1,1
+11-Jun-21,76,East Midlands,1.1,1.3,1,0
+18-Jun-21,77,East Midlands,1.0,1.3,1,0
+25-Jun-21,78,East Midlands,1.2,1.4,1,0
+02-Jul-21,79,East Midlands,1.1,1.3,1,0
+09-Jul-21,80,East Midlands,1.2,1.5,1,0
+16-Jul-21,81,East Midlands,1.3,1.5,1,0
+23-Jul-21,82,East Midlands,1.2,1.4,1,0
+30-Jul-21,83,East Midlands,1.1,1.4,1,0
+06-Aug-21,84,East Midlands,0.8,1.1,1,0
+13-Aug-21,85,East Midlands,0.8,1.0,1,0
+20-Aug-21,86,East Midlands,0.9,1.2,1,0
+27-Aug-21,87,East Midlands,0.9,1.1,1,0
+03-Sep-21,88,East Midlands,0.9,1.1,1,0
+10-Sep-21,89,East Midlands,0.9,1.1,1,0
+17-Sep-21,90,East Midlands,0.9,1.1,1,0
+24-Sep-21,91,East Midlands,0.8,1.0,1,0
+01-Oct-21,92,East Midlands,0.8,1.1,1,0
+08-Oct-21,93,East Midlands,0.9,1.2,1,0
+15-Oct-21,94,East Midlands,0.9,1.1,1,0
+22-Oct-21,95,East Midlands,.,.,0,0
+29-Oct-21,96,East Midlands,1.0,1.2,1,0
+05-Nov-21,97,East Midlands,0.9,1.1,1,0
+12-Nov-21,98,East Midlands,0.8,1.0,1,0
+19-Nov-21,99,East Midlands,0.8,1.0,1,0
+26-Nov-21,100,East Midlands,0.9,1.1,1,0
+03-Dec-21,101,East Midlands,0.9,1.1,1,0
+10-Dec-21,102,East Midlands,0.9,1.0,1,0
+29-May-20,22,West Midlands,.,.,1,0
+05-Jun-20,23,West Midlands,.,.,1,0
+12-Jun-20,24,West Midlands,0.8,1.0,1,0
+19-Jun-20,25,West Midlands,0.8,1.0,1,0
+26-Jun-20,26,West Midlands,0.7,0.9,1,0
+03-Jul-20,27,West Midlands,0.8,1.0,1,0
+10-Jul-20,28,West Midlands,0.7,0.9,1,0
+17-Jul-20,29,West Midlands,0.7,1.0,1,0
+24-Jul-20,30,West Midlands,0.7,1.0,1,0
+31-Jul-20,31,West Midlands,0.7,0.9,1,0
+07-Aug-20,32,West Midlands,0.8,1.0,0,0
+14-Aug-20,33,West Midlands,0.8,1.0,0,0
+21-Aug-20,34,West Midlands,0.8,1.0,1,0
+28-Aug-20,35,West Midlands,0.8,1.1,0,0
+04-Sep-20*,36,West Midlands,0.8,1.0,1,1
+11-Sep-20,37,West Midlands,0.9,1.1,1,0
+18-Sep-20,38,West Midlands,1.2,1.5,1,0
+25-Sep-20,39,West Midlands,1.2,1.5,1,0
+02-Oct-20,40,West Midlands,1.2,1.5,1,0
+09-Oct-20,41,West Midlands,1.2,1.5,1,0
+16-Oct-20,42,West Midlands,1.2,1.5,1,0
+23-Oct-20,43,West Midlands,1.1,1.3,1,0
+30-Oct-20,44,West Midlands,1.2,1.4,1,0
+06-Nov-20,45,West Midlands,1.1,1.3,1,0
+13-Nov-20,46,West Midlands,1.1,1.3,1,0
+20-Nov-20,47,West Midlands,1.0,1.2,1,0
+27-Nov-20,48,West Midlands,0.9,1.1,1,0
+04-Dec-20,49,West Midlands,0.8,0.9,1,0
+11-Dec-20,50,West Midlands,0.8,1.0,1,0
+18-Dec-20,51,West Midlands,1.0,1.2,1,0
+23-Dec-20*,52,West Midlands,1.0,1.2,1,1
+08-Jan-21*,54,West Midlands,1.1,1.4,1,1
+15-Jan-21,55,West Midlands,1.2,1.4,1,0
+22-Jan-21,56,West Midlands,0.9,1.2,1,0
+29-Jan-21,57,West Midlands,0.8,1.1,1,0
+05-Feb-21,58,West Midlands,0.7,0.9,1,0
+12-Feb-21,59,West Midlands,0.7,0.9,1,0
+19-Feb-21,60,West Midlands,0.6,0.9,1,0
+26-Feb-21,61,West Midlands,0.7,0.9,1,0
+05-Mar-21,62,West Midlands,0.7,0.9,1,0
+12-Mar-21,63,West Midlands,0.6,0.8,1,0
+19-Mar-21,64,West Midlands,0.6,0.9,1,0
+26-Mar-21,65,West Midlands,0.7,1.0,1,0
+02-Apr-21,66,West Midlands,0.7,1.0,1,0
+09-Apr-21,67,West Midlands,0.7,1.0,1,0
+16-Apr-21,68,West Midlands,0.7,1.0,0,0
+23-Apr-21,69,West Midlands,0.7,0.9,0,0
+30-Apr-21,70,West Midlands,0.7,1.0,1,0
+07-May-21*,71,West Midlands,0.8,1.0,1,1
+14-May-21,72,West Midlands,0.8,1.0,1,0
+21-May-21,73,West Midlands,0.8,1.0,1,0
+28-May-21,74,West Midlands,0.9,1.0,1,0
+04-Jun-21*,75,West Midlands,1.0,1.2,1,1
+11-Jun-21,76,West Midlands,1.1,1.3,1,0
+18-Jun-21,77,West Midlands,1.0,1.3,1,0
+25-Jun-21,78,West Midlands,1.2,1.4,1,0
+02-Jul-21,79,West Midlands,1.1,1.3,1,0
+09-Jul-21,80,West Midlands,1.2,1.5,1,0
+16-Jul-21,81,West Midlands,1.3,1.5,1,0
+23-Jul-21,82,West Midlands,1.2,1.4,1,0
+30-Jul-21,83,West Midlands,1.1,1.4,1,0
+06-Aug-21,84,West Midlands,0.8,1.1,1,0
+13-Aug-21,85,West Midlands,0.8,1.0,1,0
+20-Aug-21,86,West Midlands,0.9,1.2,1,0
+27-Aug-21,87,West Midlands,0.9,1.1,1,0
+03-Sep-21,88,West Midlands,0.9,1.1,1,0
+10-Sep-21,89,West Midlands,0.9,1.1,1,0
+17-Sep-21,90,West Midlands,0.9,1.1,1,0
+24-Sep-21,91,West Midlands,0.8,1.0,1,0
+01-Oct-21,92,West Midlands,0.8,1.1,1,0
+08-Oct-21,93,West Midlands,0.9,1.2,1,0
+15-Oct-21,94,West Midlands,0.9,1.1,1,0
+22-Oct-21,95,West Midlands,.,.,0,0
+29-Oct-21,96,West Midlands,1.0,1.2,1,0
+05-Nov-21,97,West Midlands,0.9,1.1,1,0
+12-Nov-21,98,West Midlands,0.8,1.0,1,0
+19-Nov-21,99,West Midlands,0.8,1.0,1,0
+26-Nov-21,100,West Midlands,0.9,1.1,1,0
+03-Dec-21,101,West Midlands,0.9,1.1,1,0
+10-Dec-21,102,West Midlands,0.9,1.0,1,0
+29-May-20,22,North East,.,.,1,0
+05-Jun-20,23,North East,.,.,1,0
+12-Jun-20,24,North East,0.7,1.0,1,0
+19-Jun-20,25,North East,0.7,0.9,1,0
+26-Jun-20,26,North East,0.7,0.9,1,0
+03-Jul-20,27,North East,0.8,1.0,1,0
+10-Jul-20,28,North East,0.7,1.0,0,0
+17-Jul-20,29,North East,0.7,0.9,1,0
+24-Jul-20,30,North East,0.8,1.0,1,0
+31-Jul-20,31,North East,0.7,0.9,0,0
+07-Aug-20,32,North East,0.8,1.0,0,0
+14-Aug-20,33,North East,0.8,1.0,0,0
+21-Aug-20,34,North East,0.8,1.0,0,0
+28-Aug-20,35,North East,0.8,1.0,0,0
+04-Sep-20*,36,North East,0.8,1.0,1,1
+11-Sep-20,37,North East,1.0,1.2,1,0
+18-Sep-20,38,North East,1.2,1.4,1,0
+25-Sep-20,39,North East,1.2,1.5,1,0
+02-Oct-20,40,North East,1.2,1.6,1,0
+09-Oct-20,41,North East,1.3,1.5,1,0
+16-Oct-20,42,North East,1.3,1.4,1,0
+23-Oct-20,43,North East,1.1,1.3,1,0
+30-Oct-20,44,North East,1.1,1.3,1,0
+06-Nov-20,45,North East,1.1,1.2,1,0
+13-Nov-20,46,North East,1.0,1.2,1,0
+20-Nov-20,47,North East,1.0,1.1,1,0
+27-Nov-20,48,North East,0.8,1.0,1,0
+04-Dec-20,49,North East,0.7,0.9,1,0
+11-Dec-20,50,North East,0.7,0.9,1,0
+18-Dec-20,51,North East,0.9,1.1,1,0
+23-Dec-20*,52,North East,0.9,1.1,1,1
+08-Jan-21*,54,North East,1.1,1.4,1,1
+15-Jan-21,55,North East,1.1,1.3,1,0
+22-Jan-21,56,North East,0.8,1.1,1,0
+29-Jan-21,57,North East,0.8,1.1,1,0
+05-Feb-21,58,North East,0.8,1.0,1,0
+12-Feb-21,59,North East,0.8,0.9,1,0
+19-Feb-21,60,North East,0.7,1.0,1,0
+26-Feb-21,61,North East,0.7,0.9,1,0
+05-Mar-21,62,North East,0.7,1.0,1,0
+12-Mar-21,63,North East,0.7,0.9,1,0
+19-Mar-21,64,North East,0.7,0.9,1,0
+26-Mar-21,65,North East,0.8,1.0,1,0
+02-Apr-21,66,North East,0.8,1.0,1,0
+09-Apr-21,67,North East,0.8,1.0,1,0
+16-Apr-21,68,North East,0.7,1.0,1,0
+23-Apr-21,69,North East,0.7,1.0,1,0
+30-Apr-21,70,North East,0.8,1.0,1,0
+07-May-21*,71,North East,0.7,1.0,1,1
+14-May-21,72,North East,0.8,1.0,1,0
+21-May-21,73,North East,0.8,1.0,1,0
+28-May-21,74,North East,0.8,1.0,1,0
+04-Jun-21*,75,North East,0.9,1.1,1,1
+11-Jun-21,76,North East,1.0,1.2,1,0
+18-Jun-21,77,North East,1.0,1.3,1,0
+25-Jun-21,78,North East,1.2,1.5,1,0
+02-Jul-21,79,North East,1.2,1.4,1,0
+09-Jul-21,80,North East,4.0,1.6,1,0
+16-Jul-21,81,North East,1.2,1.6,1,0
+23-Jul-21,82,North East,1.2,1.5,1,0
+30-Jul-21,83,North East,1.1,1.3,1,0
+06-Aug-21,84,North East,0.7,1.0,1,0
+13-Aug-21,85,North East,0.8,1.0,1,0
+20-Aug-21,86,North East,0.9,1.1,1,0
+27-Aug-21,87,North East,0.9,1.0,1,0
+03-Sep-21,88,North East,0.9,1.1,1,0
+10-Sep-21,89,North East,0.9,1.1,1,0
+17-Sep-21,90,North East,0.9,1.1,1,0
+24-Sep-21,91,North East,0.8,1.0,1,0
+01-Oct-21,92,North East,0.8,1.1,1,0
+08-Oct-21,93,North East,1.0,1.1,1,0
+15-Oct-21,94,North East,0.9,1.1,1,0
+22-Oct-21,95,North East,.,.,0,0
+29-Oct-21,96,North East,1.0,1.2,1,0
+05-Nov-21,97,North East,0.9,1.1,1,0
+12-Nov-21,98,North East,0.8,1.0,1,0
+19-Nov-21,99,North East,0.8,1.0,1,0
+26-Nov-21,100,North East,0.9,1.1,1,0
+03-Dec-21,101,North East,0.9,1.1,1,0
+10-Dec-21,102,North East,0.9,1.1,1,0
+29-May-20,22,Yorkshire and The Humber,.,.,1,0
+05-Jun-20,23,Yorkshire and The Humber,.,.,1,0
+12-Jun-20,24,Yorkshire and The Humber,0.7,1.0,1,0
+19-Jun-20,25,Yorkshire and The Humber,0.7,0.9,1,0
+26-Jun-20,26,Yorkshire and The Humber,0.7,0.9,1,0
+03-Jul-20,27,Yorkshire and The Humber,0.8,1.0,1,0
+10-Jul-20,28,Yorkshire and The Humber,0.7,1.0,0,0
+17-Jul-20,29,Yorkshire and The Humber,0.7,0.9,1,0
+24-Jul-20,30,Yorkshire and The Humber,0.8,1.0,1,0
+31-Jul-20,31,Yorkshire and The Humber,0.7,0.9,0,0
+07-Aug-20,32,Yorkshire and The Humber,0.8,1.0,0,0
+14-Aug-20,33,Yorkshire and The Humber,0.8,1.0,0,0
+21-Aug-20,34,Yorkshire and The Humber,0.8,1.0,0,0
+28-Aug-20,35,Yorkshire and The Humber,0.8,1.0,0,0
+04-Sep-20*,36,Yorkshire and The Humber,0.8,1.0,1,1
+11-Sep-20,37,Yorkshire and The Humber,1.0,1.2,1,0
+18-Sep-20,38,Yorkshire and The Humber,1.2,1.4,1,0
+25-Sep-20,39,Yorkshire and The Humber,1.2,1.5,1,0
+02-Oct-20,40,Yorkshire and The Humber,1.2,1.6,1,0
+09-Oct-20,41,Yorkshire and The Humber,1.3,1.5,1,0
+16-Oct-20,42,Yorkshire and The Humber,1.3,1.4,1,0
+23-Oct-20,43,Yorkshire and The Humber,1.1,1.3,1,0
+30-Oct-20,44,Yorkshire and The Humber,1.1,1.3,1,0
+06-Nov-20,45,Yorkshire and The Humber,1.1,1.2,1,0
+13-Nov-20,46,Yorkshire and The Humber,1.0,1.2,1,0
+20-Nov-20,47,Yorkshire and The Humber,1.0,1.1,1,0
+27-Nov-20,48,Yorkshire and The Humber,0.8,1.0,1,0
+04-Dec-20,49,Yorkshire and The Humber,0.7,0.9,1,0
+11-Dec-20,50,Yorkshire and The Humber,0.7,0.9,1,0
+18-Dec-20,51,Yorkshire and The Humber,0.9,1.1,1,0
+23-Dec-20*,52,Yorkshire and The Humber,0.9,1.1,1,1
+08-Jan-21*,54,Yorkshire and The Humber,1.1,1.4,1,1
+15-Jan-21,55,Yorkshire and The Humber,1.1,1.3,1,0
+22-Jan-21,56,Yorkshire and The Humber,0.8,1.1,1,0
+29-Jan-21,57,Yorkshire and The Humber,0.8,1.1,1,0
+05-Feb-21,58,Yorkshire and The Humber,0.8,1.0,1,0
+12-Feb-21,59,Yorkshire and The Humber,0.8,0.9,1,0
+19-Feb-21,60,Yorkshire and The Humber,0.7,1.0,1,0
+26-Feb-21,61,Yorkshire and The Humber,0.7,0.9,1,0
+05-Mar-21,62,Yorkshire and The Humber,0.7,1.0,1,0
+12-Mar-21,63,Yorkshire and The Humber,0.7,0.9,1,0
+19-Mar-21,64,Yorkshire and The Humber,0.7,0.9,1,0
+26-Mar-21,65,Yorkshire and The Humber,0.8,1.0,1,0
+02-Apr-21,66,Yorkshire and The Humber,0.8,1.0,1,0
+09-Apr-21,67,Yorkshire and The Humber,0.8,1.0,1,0
+16-Apr-21,68,Yorkshire and The Humber,0.7,1.0,1,0
+23-Apr-21,69,Yorkshire and The Humber,0.7,1.0,1,0
+30-Apr-21,70,Yorkshire and The Humber,0.8,1.0,1,0
+07-May-21*,71,Yorkshire and The Humber,0.7,1.0,1,1
+14-May-21,72,Yorkshire and The Humber,0.8,1.0,1,0
+21-May-21,73,Yorkshire and The Humber,0.8,1.0,1,0
+28-May-21,74,Yorkshire and The Humber,0.8,1.0,1,0
+04-Jun-21*,75,Yorkshire and The Humber,0.9,1.1,1,1
+11-Jun-21,76,Yorkshire and The Humber,1.0,1.2,1,0
+18-Jun-21,77,Yorkshire and The Humber,1.0,1.3,1,0
+25-Jun-21,78,Yorkshire and The Humber,1.2,1.5,1,0
+02-Jul-21,79,Yorkshire and The Humber,1.2,1.4,1,0
+09-Jul-21,80,Yorkshire and The Humber,4.0,1.6,1,0
+16-Jul-21,81,Yorkshire and The Humber,1.2,1.6,1,0
+23-Jul-21,82,Yorkshire and The Humber,1.2,1.5,1,0
+30-Jul-21,83,Yorkshire and The Humber,1.1,1.3,1,0
+06-Aug-21,84,Yorkshire and The Humber,0.7,1.0,1,0
+13-Aug-21,85,Yorkshire and The Humber,0.8,1.0,1,0
+20-Aug-21,86,Yorkshire and The Humber,0.9,1.1,1,0
+27-Aug-21,87,Yorkshire and The Humber,0.9,1.0,1,0
+03-Sep-21,88,Yorkshire and The Humber,0.9,1.1,1,0
+10-Sep-21,89,Yorkshire and The Humber,0.9,1.1,1,0
+17-Sep-21,90,Yorkshire and The Humber,0.9,1.1,1,0
+24-Sep-21,91,Yorkshire and The Humber,0.8,1.0,1,0
+01-Oct-21,92,Yorkshire and The Humber,0.8,1.1,1,0
+08-Oct-21,93,Yorkshire and The Humber,1.0,1.1,1,0
+15-Oct-21,94,Yorkshire and The Humber,0.9,1.1,1,0
+22-Oct-21,95,Yorkshire and The Humber,.,.,0,0
+29-Oct-21,96,Yorkshire and The Humber,1.0,1.2,1,0
+05-Nov-21,97,Yorkshire and The Humber,0.9,1.1,1,0
+12-Nov-21,98,Yorkshire and The Humber,0.8,1.0,1,0
+19-Nov-21,99,Yorkshire and The Humber,0.8,1.0,1,0
+26-Nov-21,100,Yorkshire and The Humber,0.9,1.1,1,0
+03-Dec-21,101,Yorkshire and The Humber,0.9,1.1,1,0
+10-Dec-21,102,Yorkshire and The Humber,0.9,1.1,1,0
+29-May-20,22,North West,.,.,1,0
+05-Jun-20,23,North West,.,.,1,0
+12-Jun-20,24,North West,0.8,1.0,1,0
+19-Jun-20,25,North West,0.7,1.0,1,0
+26-Jun-20,26,North West,0.7,1.0,1,0
+03-Jul-20,27,North West,0.7,0.9,1,0
+10-Jul-20,28,North West,0.7,1.0,1,0
+17-Jul-20,29,North West,0.7,1.0,0,0
+24-Jul-20,30,North West,0.7,1.0,0,0
+31-Jul-20,31,North West,0.8,1.1,0,0
+07-Aug-20,32,North West,0.8,1.1,1,0
+14-Aug-20,33,North West,0.8,1.1,1,0
+21-Aug-20,34,North West,0.9,1.1,1,0
+28-Aug-20,35,North West,0.9,1.1,1,0
+04-Sep-20*,36,North West,0.8,1.0,1,1
+11-Sep-20,37,North West,1.1,1.3,1,0
+18-Sep-20,38,North West,1.2,1.5,1,0
+25-Sep-20,39,North West,1.2,1.5,1,0
+02-Oct-20,40,North West,1.2,1.5,1,0
+09-Oct-20,41,North West,1.2,1.4,1,0
+16-Oct-20,42,North West,1.3,1.5,1,0
+23-Oct-20,43,North West,1.1,1.3,1,0
+30-Oct-20,44,North West,1.0,1.2,1,0
+06-Nov-20,45,North West,1.0,1.1,1,0
+13-Nov-20,46,North West,0.9,1.1,1,0
+20-Nov-20,47,North West,0.8,1.0,1,0
+27-Nov-20,48,North West,0.7,0.9,1,0
+04-Dec-20,49,North West,0.7,0.9,1,0
+11-Dec-20,50,North West,0.7,0.9,1,0
+18-Dec-20,51,North West,0.9,1.1,1,0
+23-Dec-20*,52,North West,0.9,1.1,1,1
+08-Jan-21*,54,North West,1.0,1.4,1,1
+15-Jan-21,55,North West,1.2,1.5,1,0
+22-Jan-21,56,North West,0.9,1.2,1,0
+29-Jan-21,57,North West,0.8,1.1,1,0
+05-Feb-21,58,North West,0.7,1.0,1,0
+12-Feb-21,59,North West,0.7,0.9,1,0
+19-Feb-21,60,North West,0.6,0.9,1,0
+26-Feb-21,61,North West,0.7,0.9,1,0
+05-Mar-21,62,North West,0.7,0.9,1,0
+12-Mar-21,63,North West,0.6,0.8,1,0
+19-Mar-21,64,North West,0.7,0.9,1,0
+26-Mar-21,65,North West,0.7,1.0,1,0
+02-Apr-21,66,North West,0.8,1.0,1,0
+09-Apr-21,67,North West,0.8,1.0,1,0
+16-Apr-21,68,North West,0.6,0.9,0,0
+23-Apr-21,69,North West,0.7,0.9,0,0
+30-Apr-21,70,North West,0.7,0.9,1,0
+07-May-21*,71,North West,0.7,1.0,1,1
+14-May-21,72,North West,0.8,1.1,1,0
+21-May-21,73,North West,0.9,1.2,1,0
+28-May-21,74,North West,1.0,1.2,1,0
+04-Jun-21*,75,North West,1.1,1.3,0,1
+11-Jun-21,76,North West,1.3,1.5,1,0
+18-Jun-21,77,North West,1.3,1.5,1,0
+25-Jun-21,78,North West,1.1,1.4,1,0
+02-Jul-21,79,North West,1.0,1.2,1,0
+09-Jul-21,80,North West,1.1,1.2,1,0
+16-Jul-21,81,North West,1.0,1.3,1,0
+23-Jul-21,82,North West,1.0,1.2,1,0
+30-Jul-21,83,North West,1.0,1.2,1,0
+06-Aug-21,84,North West,0.7,1.0,1,0
+13-Aug-21,85,North West,0.8,1.0,1,0
+20-Aug-21,86,North West,0.9,1.1,1,0
+27-Aug-21,87,North West,0.9,1.1,1,0
+03-Sep-21,88,North West,0.9,1.1,1,0
+10-Sep-21,89,North West,0.9,1.1,1,0
+17-Sep-21,90,North West,0.9,1.1,1,0
+24-Sep-21,91,North West,0.8,1.0,1,0
+01-Oct-21,92,North West,0.8,1.1,1,0
+08-Oct-21,93,North West,0.9,1.1,1,0
+15-Oct-21,94,North West,0.9,1.1,1,0
+22-Oct-21,95,North West,.,.,0,0
+29-Oct-21,96,North West,1.0,1.2,1,0
+05-Nov-21,97,North West,0.9,1.1,1,0
+12-Nov-21,98,North West,0.8,1.0,1,0
+19-Nov-21,99,North West,0.8,1.0,1,0
+26-Nov-21,100,North West,0.8,1.1,1,0
+03-Dec-21,101,North West,0.9,1.1,1,0
+10-Dec-21,102,North West,0.9,1.0,1,0
+29-May-20,22,South East,.,.,1,0
+05-Jun-20,23,South East,.,.,1,0
+12-Jun-20,24,South East,0.8,1.0,1,0
+19-Jun-20,25,South East,0.7,0.9,1,0
+26-Jun-20,26,South East,0.7,0.9,1,0
+03-Jul-20,27,South East,0.7,1.0,1,0
+10-Jul-20,28,South East,0.8,1.0,0,0
+17-Jul-20,29,South East,0.8,1.0,0,0
+24-Jul-20,30,South East,0.8,1.0,0,0
+31-Jul-20,31,South East,0.8,1.0,1,0
+07-Aug-20,32,South East,0.8,1.0,1,0
+14-Aug-20,33,South East,0.8,0.9,1,0
+21-Aug-20,34,South East,0.8,1.0,1,0
+28-Aug-20,35,South East,0.9,1.1,0,0
+04-Sep-20*,36,South East,0.8,1.0,1,1
+11-Sep-20,37,South East,1.0,1.2,1,0
+18-Sep-20,38,South East,1.1,1.4,1,0
+25-Sep-20,39,South East,1.0,1.3,1,0
+02-Oct-20,40,South East,1.1,1.4,1,0
+09-Oct-20,41,South East,1.2,1.4,1,0
+16-Oct-20,42,South East,1.3,1.5,1,0
+23-Oct-20,43,South East,1.2,1.5,1,0
+30-Oct-20,44,South East,1.2,1.4,1,0
+06-Nov-20,45,South East,1.2,1.4,1,0
+13-Nov-20,46,South East,1.2,1.4,1,0
+20-Nov-20,47,South East,1.1,1.3,1,0
+27-Nov-20,48,South East,1.0,1.2,1,0
+04-Dec-20,49,South East,0.9,1.1,1,0
+11-Dec-20,50,South East,0.9,1.1,1,0
+18-Dec-20,51,South East,1.1,1.3,1,0
+23-Dec-20*,52,South East,1.2,1.4,1,1
+08-Jan-21*,54,South East,1.1,1.4,1,1
+15-Jan-21,55,South East,1.0,1.2,1,0
+22-Jan-21,56,South East,0.7,1.0,1,0
+29-Jan-21,57,South East,0.7,0.9,1,0
+05-Feb-21,58,South East,0.6,0.9,1,0
+12-Feb-21,59,South East,0.7,0.8,1,0
+19-Feb-21,60,South East,0.6,0.8,1,0
+26-Feb-21,61,South East,0.7,0.9,1,0
+05-Mar-21,62,South East,0.6,0.8,1,0
+12-Mar-21,63,South East,0.6,0.8,1,0
+19-Mar-21,64,South East,0.7,0.9,1,0
+26-Mar-21,65,South East,0.7,1.0,1,0
+02-Apr-21,66,South East,0.7,1.0,1,0
+09-Apr-21,67,South East,0.7,0.9,0,0
+16-Apr-21,68,South East,0.6,0.9,0,0
+23-Apr-21,69,South East,0.7,0.9,0,0
+30-Apr-21,70,South East,0.8,1.0,1,0
+07-May-21*,71,South East,0.8,1.1,1,1
+14-May-21,72,South East,0.8,1.0,1,0
+21-May-21,73,South East,0.8,1.0,1,0
+28-May-21,74,South East,0.8,1.0,0,0
+04-Jun-21*,75,South East,1.0,1.2,1,1
+11-Jun-21,76,South East,1.1,1.4,1,0
+18-Jun-21,77,South East,1.0,1.3,1,0
+25-Jun-21,78,South East,1.1,1.3,1,0
+02-Jul-21,79,South East,1.1,1.3,1,0
+09-Jul-21,80,South East,1.3,1.6,1,0
+16-Jul-21,81,South East,1.3,1.6,1,0
+23-Jul-21,82,South East,1.2,1.5,1,0
+30-Jul-21,83,South East,1.2,1.5,1,0
+06-Aug-21,84,South East,0.9,1.2,1,0
+13-Aug-21,85,South East,0.8,1.0,1,0
+20-Aug-21,86,South East,0.9,1.2,1,0
+27-Aug-21,87,South East,1.0,1.2,1,0
+03-Sep-21,88,South East,1.0,1.2,1,0
+10-Sep-21,89,South East,0.9,1.1,1,0
+17-Sep-21,90,South East,0.9,1.2,1,0
+24-Sep-21,91,South East,0.7,0.9,1,0
+01-Oct-21,92,South East,0.8,1.1,1,0
+08-Oct-21,93,South East,0.9,1.2,1,0
+15-Oct-21,94,South East,0.9,1.1,1,0
+22-Oct-21,95,South East,.,.,0,0
+29-Oct-21,96,South East,1.1,1.4,1,0
+05-Nov-21,97,South East,1.0,1.2,1,0
+12-Nov-21,98,South East,0.8,1.0,1,0
+19-Nov-21,99,South East,0.8,1.1,1,0
+26-Nov-21,100,South East,0.9,1.2,1,0
+03-Dec-21,101,South East,1.0,1.2,1,0
+10-Dec-21,102,South East,0.9,1.1,1,0
+29-May-20,22,South West,.,.,1,0
+05-Jun-20,23,South West,.,.,1,0
+12-Jun-20,24,South West,0.8,1.1,1,0
+19-Jun-20,25,South West,0.6,0.9,1,0
+26-Jun-20,26,South West,0.6,0.9,1,0
+03-Jul-20,27,South West,0.7,1.0,1,0
+10-Jul-20,28,South West,0.7,1.1,0,0
+17-Jul-20,29,South West,0.7,1.1,0,0
+24-Jul-20,30,South West,0.7,1.0,0,0
+31-Jul-20,31,South West,0.8,1.1,0,0
+07-Aug-20,32,South West,0.8,1.1,0,0
+14-Aug-20,33,South West,0.8,1.0,0,0
+21-Aug-20,34,South West,0.8,1.1,0,0
+28-Aug-20,35,South West,0.9,1.1,0,0
+04-Sep-20*,36,South West,0.8,1.1,0,1
+11-Sep-20,37,South West,0.9,1.2,1,0
+18-Sep-20,38,South West,0.9,1.6,1,0
+25-Sep-20,39,South West,1.1,1.4,1,0
+02-Oct-20,40,South West,1.1,1.4,1,0
+09-Oct-20,41,South West,1.3,1.6,1,0
+16-Oct-20,42,South West,1.3,1.6,1,0
+23-Oct-20,43,South West,1.3,1.6,1,0
+30-Oct-20,44,South West,1.2,1.5,1,0
+06-Nov-20,45,South West,1.2,1.4,1,0
+13-Nov-20,46,South West,1.2,1.4,1,0
+20-Nov-20,47,South West,1.0,1.3,1,0
+27-Nov-20,48,South West,0.9,1.1,1,0
+04-Dec-20,49,South West,0.7,1.0,1,0
+11-Dec-20,50,South West,0.8,1.0,1,0
+18-Dec-20,51,South West,0.9,1.2,1,0
+23-Dec-20*,52,South West,1.0,1.2,1,1
+08-Jan-21*,54,South West,1.1,1.5,1,1
+15-Jan-21,55,South West,1.2,1.5,1,0
+22-Jan-21,56,South West,0.9,1.2,1,0
+29-Jan-21,57,South West,0.8,1.1,1,0
+05-Feb-21,58,South West,0.7,0.9,1,0
+12-Feb-21,59,South West,0.7,0.9,1,0
+19-Feb-21,60,South West,0.6,0.9,1,0
+26-Feb-21,61,South West,0.6,0.8,1,0
+05-Mar-21,62,South West,0.6,0.8,1,0
+12-Mar-21,63,South West,0.5,0.8,1,0
+19-Mar-21,64,South West,0.6,0.9,1,0
+26-Mar-21,65,South West,0.7,0.9,1,0
+02-Apr-21,66,South West,0.7,1.0,0,0
+09-Apr-21,67,South West,0.7,1.0,0,0
+16-Apr-21,68,South West,0.7,1.1,0,0
+23-Apr-21,69,South West,0.7,1.1,0,0
+30-Apr-21,70,South West,0.8,1.2,1,0
+07-May-21*,71,South West,0.8,1.1,1,1
+14-May-21,72,South West,0.8,1.1,1,0
+21-May-21,73,South West,0.8,1.1,1,0
+28-May-21,74,South West,0.9,1.1,1,0
+04-Jun-21*,75,South West,0.8,1.1,0,1
+11-Jun-21,76,South West,1.0,1.3,0,0
+18-Jun-21,77,South West,1.0,1.5,1,0
+25-Jun-21,78,South West,1.3,1.7,1,0
+02-Jul-21,79,South West,1.3,1.6,1,0
+09-Jul-21,80,South West,1.3,1.6,1,0
+16-Jul-21,81,South West,1.2,1.5,1,0
+23-Jul-21,82,South West,1.3,1.5,1,0
+30-Jul-21,83,South West,1.2,1.5,1,0
+06-Aug-21,84,South West,0.8,1.2,1,0
+13-Aug-21,85,South West,0.8,1.1,1,0
+20-Aug-21,86,South West,0.9,1.2,1,0
+27-Aug-21,87,South West,1.0,1.2,1,0
+03-Sep-21,88,South West,1.0,1.4,1,0
+10-Sep-21,89,South West,0.9,1.1,1,0
+17-Sep-21,90,South West,0.9,1.1,1,0
+24-Sep-21,91,South West,0.7,0.9,1,0
+01-Oct-21,92,South West,0.8,1.1,1,0
+08-Oct-21,93,South West,0.9,1.2,1,0
+15-Oct-21,94,South West,0.9,1.1,1,0
+22-Oct-21,95,South West,.,.,1,0
+29-Oct-21,96,South West,.,.,1,0
+05-Nov-21,97,South West,0.9,1.2,1,0
+12-Nov-21,98,South West,0.7,1.0,1,0
+19-Nov-21,99,South West,0.8,1.0,1,0
+26-Nov-21,100,South West,0.9,1.1,1,0
+03-Dec-21,101,South West,0.9,1.1,1,0
+10-Dec-21,102,South West,0.9,1.1,1,0

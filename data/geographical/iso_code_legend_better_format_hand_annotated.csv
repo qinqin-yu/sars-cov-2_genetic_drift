@@ -1,0 +1,217 @@
+,Subdivision category,3166-2 code,Subdivision name
+0,council area,GB-ABE,Aberdeen City
+1,council area,GB-ABD,Aberdeenshire
+2,council area,GB-ANS,Angus
+3,district,GB-ANN,Antrim and Newtownabbey
+4,district,GB-AND,Ards and North Down
+5,council area,GB-AGB,Argyll and Bute
+6,district,GB-ABC,"Armagh City, Banbridge and Craigavon"
+7,London borough,GB-BDG,Barking and Dagenham
+8,London borough,GB-BNE,Barnet
+9,metropolitan district,GB-BNS,Barnsley
+10,unitary authority,GB-BAS,Bath and North East Somerset
+11,unitary authority,GB-BDF,Bedford
+12,district,GB-BFS,Belfast
+13,London borough,GB-BEX,Bexley
+14,metropolitan district,GB-BIR,Birmingham
+15,unitary authority,GB-BBD,Blackburn with Darwen
+16,unitary authority,GB-BPL,Blackpool
+17,unitary authority,GB-BGW,Blaenau Gwent
+18,metropolitan district,GB-BOL,Bolton
+19,unitary authority,GB-BCP,"Bournemouth, Christchurch and Poole"
+20,unitary authority,GB-BRC,Bracknell Forest
+21,metropolitan district,GB-BRD,Bradford
+22,London borough,GB-BEN,Brent
+23,unitary authority,GB-BGE,Bridgend
+24,unitary authority,GB-BNH,Brighton and Hove
+25,unitary authority,GB-BST,"Bristol, City of"
+26,London borough,GB-BRY,Bromley
+27,two-tier county,GB-BKM,Buckinghamshire
+28,metropolitan district,GB-BUR,Bury
+29,unitary authority,GB-CAY,Caerphilly
+30,metropolitan district,GB-CLD,Calderdale
+31,two-tier county,GB-CAM,Cambridgeshire
+32,London borough,GB-CMD,Camden
+33,unitary authority,GB-CRF,Cardiff
+34,unitary authority,GB-CMN,Carmarthenshire
+35,district,GB-CCG,Causeway Coast and Glens
+36,unitary authority,GB-CBF,Central Bedfordshire
+37,unitary authority,GB-CGN,Ceredigion
+38,unitary authority,GB-CHE,Cheshire East
+39,unitary authority,GB-CHW,Cheshire West and Chester
+40,council area,GB-CLK,Clackmannanshire
+41,unitary authority,GB-CWY,Conwy
+42,unitary authority,GB-CON,Cornwall
+43,metropolitan district,GB-COV,Coventry
+44,London borough,GB-CRY,Croydon
+45,two-tier county,GB-CMA,Cumbria
+46,unitary authority,GB-DAL,Darlington
+47,unitary authority,GB-DEN,Denbighshire
+48,unitary authority,GB-DER,Derby
+49,two-tier county,GB-DBY,Derbyshire
+50,district,GB-DRS,Derry City and Strabane
+51,two-tier county,GB-DEV,Devon
+52,metropolitan district,GB-DNC,Doncaster
+53,two-tier county,GB-DOR,Dorset
+54,metropolitan district,GB-DUD,Dudley
+55,council area,GB-DGY,Dumfries and Galloway
+56,council area,GB-DND,Dundee City
+57,unitary authority,GB-DUR,County Durham
+58,London borough,GB-EAL,Ealing
+59,council area,GB-EAY,East Ayrshire
+60,council area,GB-EDU,East Dunbartonshire
+61,council area,GB-ELN,East Lothian
+62,council area,GB-ERW,East Renfrewshire
+63,unitary authority,GB-ERY,East Riding of Yorkshire
+64,two-tier county,GB-ESX,East Sussex
+65,council area,GB-EDH,City of Edinburgh
+66,council area,GB-ELS,Na h-Eileanan Siar
+67,London borough,GB-ENF,Enfield
+68,two-tier county,GB-ESS,Essex
+69,council area,GB-FAL,Falkirk
+70,district,GB-FMO,Fermanagh and Omagh
+71,council area,GB-FIF,Fife
+72,unitary authority,GB-FLN,Flintshire
+73,metropolitan district,GB-GAT,Gateshead
+74,council area,GB-GLG,Glasgow City
+75,two-tier county,GB-GLS,Gloucestershire
+76,London borough,GB-GRE,Greenwich
+77,unitary authority,GB-GWN,Gwynedd
+78,London borough,GB-HCK,Hackney
+79,unitary authority,GB-HAL,Halton
+80,London borough,GB-HMF,Hammersmith and Fulham
+81,two-tier county,GB-HAM,Hampshire
+82,London borough,GB-HRY,Haringey
+83,London borough,GB-HRW,Harrow
+84,unitary authority,GB-HPL,Hartlepool
+85,London borough,GB-HAV,Havering
+86,unitary authority,GB-HEF,"Herefordshire, County of"
+87,two-tier county,GB-HRT,Hertfordshire
+88,council area,GB-HLD,Highland
+89,London borough,GB-HIL,Hillingdon
+90,London borough,GB-HNS,Hounslow
+91,council area,GB-IVC,Inverclyde
+92,unitary authority,GB-AGY,Isle of Anglesey
+93,unitary authority,GB-IOW,Isle of Wight
+94,unitary authority,GB-IOS,Isles of Scilly
+95,London borough,GB-ISL,Islington
+96,London borough,GB-KEC,Kensington and Chelsea
+97,two-tier county,GB-KEN,Kent
+98,unitary authority,GB-KHL,"Kingston upon Hull, City of"
+99,London borough,GB-KTT,Kingston upon Thames
+100,metropolitan district,GB-KIR,Kirklees
+101,metropolitan district,GB-KWL,Knowsley
+102,London borough,GB-LBH,Lambeth
+103,two-tier county,GB-LAN,Lancashire
+104,metropolitan district,GB-LDS,Leeds
+105,unitary authority,GB-LCE,Leicester
+106,two-tier county,GB-LEC,Leicestershire
+107,London borough,GB-LEW,Lewisham
+108,two-tier county,GB-LIN,Lincolnshire
+109,district,GB-LBC,Lisburn and Castlereagh
+110,metropolitan district,GB-LIV,Liverpool
+111,city corporation,GB-LND,City of London
+112,unitary authority,GB-LUT,Luton
+113,metropolitan district,GB-MAN,Manchester
+114,unitary authority,GB-MDW,Medway
+115,unitary authority,GB-MTY,Merthyr Tydfil
+116,London borough,GB-MRT,Merton
+117,district,GB-MEA,Mid and East Antrim
+118,district,GB-MUL,Mid Ulster
+119,unitary authority,GB-MDB,Middlesbrough
+120,council area,GB-MLN,Midlothian
+121,unitary authority,GB-MIK,Milton Keynes
+122,unitary authority,GB-MON,Monmouthshire
+123,council area,GB-MRY,Moray
+124,unitary authority,GB-NTL,Neath Port Talbot
+125,metropolitan district,GB-NET,Newcastle upon Tyne
+126,London borough,GB-NWM,Newham
+127,unitary authority,GB-NWP,Newport
+128,district,GB-NMD,"Newry, Mourne and Down"
+129,two-tier county,GB-NFK,Norfolk
+130,council area,GB-NAY,North Ayrshire
+131,unitary authority,GB-NEL,North East Lincolnshire
+132,council area,GB-NLK,North Lanarkshire
+133,unitary authority,GB-NLN,North Lincolnshire
+134,unitary authority,GB-NSM,North Somerset
+135,metropolitan district,GB-NTY,North Tyneside
+136,two-tier county,GB-NYK,North Yorkshire
+137,two-tier county,GB-NTH,Northamptonshire
+138,unitary authority,GB-NBL,Northumberland
+139,unitary authority,GB-NGM,Nottingham
+140,two-tier county,GB-NTT,Nottinghamshire
+141,metropolitan district,GB-OLD,Oldham
+142,council area,GB-ORK,Orkney Islands
+143,two-tier county,GB-OXF,Oxfordshire
+144,unitary authority,GB-PEM,Pembrokeshire
+145,council area,GB-PKN,Perth and Kinross
+146,unitary authority,GB-PTE,Peterborough
+147,unitary authority,GB-PLY,Plymouth
+148,unitary authority,GB-POR,Portsmouth
+149,unitary authority,GB-POW,Powys
+150,unitary authority,GB-RDG,Reading
+151,London borough,GB-RDB,Redbridge
+152,unitary authority,GB-RCC,Redcar and Cleveland
+153,council area,GB-RFW,Renfrewshire
+154,unitary authority,GB-RCT,Rhondda Cynon Taf
+155,London borough,GB-RIC,Richmond upon Thames
+156,metropolitan district,GB-RCH,Rochdale
+157,metropolitan district,GB-ROT,Rotherham
+158,unitary authority,GB-RUT,Rutland
+159,metropolitan district,GB-SLF,Salford
+160,metropolitan district,GB-SAW,Sandwell
+161,council area,GB-SCB,Scottish Borders
+162,metropolitan district,GB-SFT,Sefton
+163,metropolitan district,GB-SHF,Sheffield
+164,council area,GB-ZET,Shetland Islands
+165,unitary authority,GB-SHR,Shropshire
+166,unitary authority,GB-SLG,Slough
+167,metropolitan district,GB-SOL,Solihull
+168,two-tier county,GB-SOM,Somerset
+169,council area,GB-SAY,South Ayrshire
+170,unitary authority,GB-SGC,South Gloucestershire
+171,council area,GB-SLK,South Lanarkshire
+172,metropolitan district,GB-STY,South Tyneside
+173,unitary authority,GB-STH,Southampton
+174,unitary authority,GB-SOS,Southend-on-Sea
+175,London borough,GB-SWK,Southwark
+176,metropolitan district,GB-SHN,St. Helens
+177,two-tier county,GB-STS,Staffordshire
+178,council area,GB-STG,Stirling
+179,metropolitan district,GB-SKP,Stockport
+180,unitary authority,GB-STT,Stockton-on-Tees
+181,unitary authority,GB-STE,Stoke-on-Trent
+182,two-tier county,GB-SFK,Suffolk
+183,metropolitan district,GB-SND,Sunderland
+184,two-tier county,GB-SRY,Surrey
+185,London borough,GB-STN,Sutton
+186,unitary authority,GB-SWA,Swansea
+187,unitary authority,GB-SWD,Swindon
+188,metropolitan district,GB-TAM,Tameside
+189,unitary authority,GB-TFW,Telford and Wrekin
+190,unitary authority,GB-THR,Thurrock
+191,unitary authority,GB-TOB,Torbay
+192,unitary authority,GB-TOF,Torfaen
+193,London borough,GB-TWH,Tower Hamlets
+194,metropolitan district,GB-TRF,Trafford
+195,unitary authority,GB-VGL,Vale of Glamorgan
+196,metropolitan district,GB-WKF,Wakefield
+197,metropolitan district,GB-WLL,Walsall
+198,London borough,GB-WFT,Waltham Forest
+199,London borough,GB-WND,Wandsworth
+200,unitary authority,GB-WRT,Warrington
+201,two-tier county,GB-WAR,Warwickshire
+202,unitary authority,GB-WBK,West Berkshire
+203,council area,GB-WDU,West Dunbartonshire
+204,council area,GB-WLN,West Lothian
+205,two-tier county,GB-WSX,West Sussex
+206,London borough,GB-WSM,Westminster
+207,metropolitan district,GB-WGN,Wigan
+208,unitary authority,GB-WIL,Wiltshire
+209,unitary authority,GB-WNM,Windsor and Maidenhead
+210,metropolitan district,GB-WRL,Wirral
+211,unitary authority,GB-WOK,Wokingham
+212,metropolitan district,GB-WLV,Wolverhampton
+213,two-tier county,GB-WOR,Worcestershire
+214,unitary authority,GB-WRX,Wrexham
+215,unitary authority,GB-YOR,York

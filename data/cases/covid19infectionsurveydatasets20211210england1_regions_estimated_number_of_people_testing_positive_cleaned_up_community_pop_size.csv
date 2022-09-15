@@ -1,0 +1,370 @@
+Time period,Epiweek,Region,Estimated % testing positive for COVID-19,95% Lower confidence interval,95% Upper confidence interval,Method,Population size,Estimated number of people testing positive for COVID-19,95% Lower confidence interval number of people,95% Upper confidence interval number of people
+07 May 2020 to 20 May 2020,20,North East,0.13,0.00,0.70,Non-overlapping 14-day weighted estimates,"2,575,728",3348.446456,0,18030.0963
+21 May 2020 to 03 June 2020,22,North East,0.15,0.02,0.55,Non-overlapping 14-day weighted estimates,"2,575,728",3863.592064,515.1456086,14166.50424
+04 June 2020 to 17 June 2020,24,North East,0.00,-,0.25,Non-overlapping 14-day weighted estimates,"2,575,728",0,0,6439.320107
+18 June 2020 to 01 July 2020,26,North East,0.00,-,0.27,Non-overlapping 14-day weighted estimates,"2,575,728",0,0,6954.465716
+02 July 2020 to 15 July 2020,28,North East,0.07,0.00,0.37,Non-overlapping 14-day weighted estimates,"2,575,728",1803.00963,0,9530.193758
+16 July 2020 to 29 July 2020,30,North East,0.06,0.00,0.32,Non-overlapping 14-day weighted estimates,"2,575,728",1545.436826,0,8242.329737
+30 July 2020 to 12 August 2020,32,North East,0.05,0.00,0.27,Non-overlapping 14-day weighted estimates,"2,575,728",1287.864021,0,6954.465716
+13 August 2020 to 26 August 2020,34,North East,0.08,0.00,0.45,Non-overlapping 14-day weighted estimates,"2,575,728",2060.582434,0,11590.77619
+27 August 2020 to 09 September 2020,36,North East,0.15,0.05,0.35,Non-overlapping 14-day weighted estimates,"2,575,728",3863.592064,1287.864021,9015.04815
+10 September 2020 to 23 September 2020,38,North East,0.40,0.22,0.66,Non-overlapping 14-day weighted estimates,"2,575,728",10302.91217,5666.601694,16999.80508
+24 September 2020 to 07 October 2020,40,North East,1.42,1.10,1.80,Non-overlapping 14-day weighted estimates,"2,575,728",36575.33821,28333.00847,46363.10477
+08 October 2020 to 21 October 2020,42,North East,1.69,1.38,2.06,Non-overlapping 14-day weighted estimates,"2,575,728",43529.80392,35545.04699,53059.99768
+22 October 2020 to 04 November 2020,44,North East,1.57,1.26,1.93,Non-overlapping 14-day weighted estimates,"2,575,728",40438.93027,32454.17334,49711.55123
+05 November 2020 to 18 November 2020,46,North East,1.89,1.53,2.31,Non-overlapping 14-day weighted estimates,"2,575,728",48681.26001,39408.63905,59499.31779
+19 November 2020 to 02 December 2020,48,North East,1.67,1.34,2.06,Non-overlapping 14-day weighted estimates,"2,575,728",43014.65831,34514.75577,53059.99768
+03 December 2020 to 16 December 2020,50,North East,1.30,1.00,1.66,Non-overlapping 14-day weighted estimates,"2,575,728",33484.46456,25757.28043,42757.08551
+17 December 2020 to 30 December 2020,52,North East,1.57,1.23,1.97,Non-overlapping 14-day weighted estimates,"2,575,728",40438.93027,31681.45493,50741.84244
+31 December 2020 to 13 January 2021,54,North East,2.64,2.19,3.15,Non-overlapping 14-day weighted estimates,"2,575,728",67999.22033,56408.44414,81135.43335
+14 January 2021 to 27 January 2021,56,North East,1.76,1.39,2.19,Non-overlapping 14-day weighted estimates,"2,575,728",45332.81355,35802.61979,56408.44414
+28 January 2021 to 10 February 2021,58,North East,1.18,0.88,1.56,Non-overlapping 14-day weighted estimates,"2,575,728",30393.59091,22666.40678,40181.35747
+11 February 2021 to 24 February 2021,60,North East,0.73,0.51,1.01,Non-overlapping 14-day weighted estimates,"2,575,728",18802.81471,13136.21302,26014.85323
+25 February 2021 to 10 March 2021,62,North East,0.57,0.36,0.84,Non-overlapping 14-day weighted estimates,"2,575,728",14681.64984,9272.620954,21636.11556
+11 March 2021 to 24 March 2021,64,North East,0.57,0.34,0.90,Non-overlapping 14-day weighted estimates,"2,575,728",14681.64984,8757.475346,23181.55239
+25 March 2021 to 07 April 2021,66,North East,0.41,0.24,0.67,Non-overlapping 14-day weighted estimates,"2,575,728",10560.48498,6181.747303,17257.37789
+08 April 2021 to 21 April 2021,68,North East,0.16,0.06,0.34,Non-overlapping 14-day weighted estimates,"2,575,728",4121.164868,1545.436826,8757.475346
+22 April 2021 to 05 May 2021,70,North East,0.00,-,0.06,Non-overlapping 14-day weighted estimates,"2,575,728",0,0,1545.436826
+06 May 2021 to 19 May 2021,72,North East,0.19,0.07,0.42,Non-overlapping 14-day weighted estimates,"2,575,728",4893.883281,1803.00963,10818.05778
+20 May 2021 to 02 June 2021,74,North East,0.10,0.04,0.22,Non-overlapping 14-day weighted estimates,"2,575,728",2575.728043,1030.291217,5666.601694
+03 June 2021 to 16 June 2021,76,North East,0.31,0.14,0.58,Non-overlapping 14-day weighted estimates,"2,575,728",7984.756933,3606.01926,14939.22265
+17 June 2021 to 30 June 2021,78,North East,0.71,0.45,1.07,Non-overlapping 14-day weighted estimates,"2,575,728",18287.6691,11590.77619,27560.29006
+01 July 2021 to 14 July 2021,80,North East,2.07,1.61,2.61,Non-overlapping 14-day weighted estimates,"2,575,728",53317.57049,41469.22149,67226.50192
+15 July 2021 to 28 July 2021,82,North East,2.68,2.13,3.32,Non-overlapping 14-day weighted estimates,"2,575,728",69029.51155,54863.00731,85514.17102
+29 July 2021 to 11 August 2021,84,North East,2.08,1.57,2.71,Non-overlapping 14-day weighted estimates,"2,575,728",53575.14329,40438.93027,69802.22996
+12 August 2021 to 25 August 2021,86,North East,1.44,1.09,1.88,Non-overlapping 14-day weighted estimates,"2,575,728",37090.48382,28075.43567,48423.6872
+26 August 2021 to 08 September 2021,88,North East,1.76,1.35,2.25,Non-overlapping 14-day weighted estimates,"2,575,728",45332.81355,34772.32858,57953.88096
+09 September 2021 to 22 September 2021,90,North East,1.31,0.98,1.71,Non-overlapping 14-day weighted estimates,"2,575,728",33742.03736,25242.13482,44044.94953
+23 September 2021 to 06 October 2021,92,North East,1.82,1.42,2.30,Non-overlapping 14-day weighted estimates,"2,575,728",46878.25038,36575.33821,59241.74498
+07 October 2021 to 20 October 2021,94,North East,1.87,1.47,2.34,Non-overlapping 14-day weighted estimates,"2,575,728",48166.1144,37863.20223,60272.0362
+21 October 2021 to 03 November 2021,96,North East,1.62,1.27,2.02,Non-overlapping 14-day weighted estimates,"2,575,728",41726.79429,32711.74614,52029.70646
+04 November 2021 to 17 November 2021,98,North East,1.33,1.02,1.69,Non-overlapping 14-day weighted estimates,"2,575,728",34257.18297,26272.42604,43529.80392
+18 November 2021 to 01 December 2021,100,North East,2.11,1.68,2.61,Non-overlapping 14-day weighted estimates,"2,575,728",54347.8617,43272.23112,67226.50192
+07 May 2020 to 20 May 2020,20,North West,0.42,0.18,0.82,Non-overlapping 14-day weighted estimates,"7,083,551",29750.91419,12750.3918,58085.11819
+21 May 2020 to 03 June 2020,22,North West,0.47,0.25,0.80,Non-overlapping 14-day weighted estimates,"7,083,551",33292.68969,17708.8775,56668.40799
+04 June 2020 to 17 June 2020,24,North West,0.08,0.01,0.25,Non-overlapping 14-day weighted estimates,"7,083,551",5666.840799,708.3550999,17708.8775
+18 June 2020 to 01 July 2020,26,North West,0.01,0.00,0.06,Non-overlapping 14-day weighted estimates,"7,083,551",708.3550999,0,4250.130599
+02 July 2020 to 15 July 2020,28,North West,0.07,0.01,0.21,Non-overlapping 14-day weighted estimates,"7,083,551",4958.485699,708.3550999,14875.4571
+16 July 2020 to 29 July 2020,30,North West,0.10,0.03,0.26,Non-overlapping 14-day weighted estimates,"7,083,551",7083.550999,2125.0653,18417.2326
+30 July 2020 to 12 August 2020,32,North West,0.07,0.02,0.18,Non-overlapping 14-day weighted estimates,"7,083,551",4958.485699,1416.7102,12750.3918
+13 August 2020 to 26 August 2020,34,North West,0.10,0.05,0.20,Non-overlapping 14-day weighted estimates,"7,083,551",7083.550999,3541.775499,14167.102
+27 August 2020 to 09 September 2020,36,North West,0.28,0.15,0.47,Non-overlapping 14-day weighted estimates,"7,083,551",19833.9428,10625.3265,33292.68969
+10 September 2020 to 23 September 2020,38,North West,0.62,0.46,0.80,Non-overlapping 14-day weighted estimates,"7,083,551",43918.01619,32584.33459,56668.40799
+24 September 2020 to 07 October 2020,40,North West,1.50,1.31,1.72,Non-overlapping 14-day weighted estimates,"7,083,551",106253.265,92794.51808,121837.0772
+08 October 2020 to 21 October 2020,42,North West,2.42,2.19,2.67,Non-overlapping 14-day weighted estimates,"7,083,551",171421.9342,155129.7669,189130.8117
+22 October 2020 to 04 November 2020,44,North West,2.66,2.41,2.92,Non-overlapping 14-day weighted estimates,"7,083,551",188422.4566,170713.5791,206839.6892
+05 November 2020 to 18 November 2020,46,North West,2.33,2.10,2.58,Non-overlapping 14-day weighted estimates,"7,083,551",165046.7383,148754.571,182755.6158
+19 November 2020 to 02 December 2020,48,North West,1.69,1.50,1.90,Non-overlapping 14-day weighted estimates,"7,083,551",119712.0119,106253.265,134587.469
+03 December 2020 to 16 December 2020,50,North West,1.08,0.93,1.25,Non-overlapping 14-day weighted estimates,"7,083,551",76502.35079,65877.02429,88544.38748
+17 December 2020 to 30 December 2020,52,North West,1.56,1.36,1.78,Non-overlapping 14-day weighted estimates,"7,083,551",110503.3956,96336.29358,126087.2078
+31 December 2020 to 13 January 2021,54,North West,2.26,2.02,2.52,Non-overlapping 14-day weighted estimates,"7,083,551",160088.2526,143087.7302,178505.4852
+14 January 2021 to 27 January 2021,56,North West,2.49,2.24,2.78,Non-overlapping 14-day weighted estimates,"7,083,551",176380.4199,158671.5424,196922.7178
+28 January 2021 to 10 February 2021,58,North West,1.52,1.34,1.73,Non-overlapping 14-day weighted estimates,"7,083,551",107669.9752,94919.58338,122545.4323
+11 February 2021 to 24 February 2021,60,North West,0.97,0.81,1.15,Non-overlapping 14-day weighted estimates,"7,083,551",68710.44469,57376.76309,81460.83649
+25 February 2021 to 10 March 2021,62,North West,0.41,0.31,0.52,Non-overlapping 14-day weighted estimates,"7,083,551",29042.55909,21959.0081,36834.46519
+11 March 2021 to 24 March 2021,64,North West,0.39,0.29,0.51,Non-overlapping 14-day weighted estimates,"7,083,551",27625.84889,20542.2979,36126.11009
+25 March 2021 to 07 April 2021,66,North West,0.44,0.34,0.57,Non-overlapping 14-day weighted estimates,"7,083,551",31167.62439,24084.0734,40376.24069
+08 April 2021 to 21 April 2021,68,North West,0.20,0.13,0.30,Non-overlapping 14-day weighted estimates,"7,083,551",14167.102,9208.616298,21250.653
+22 April 2021 to 05 May 2021,70,North West,0.09,0.05,0.17,Non-overlapping 14-day weighted estimates,"7,083,551",6375.195899,3541.775499,12042.0367
+06 May 2021 to 19 May 2021,72,North West,0.08,0.04,0.16,Non-overlapping 14-day weighted estimates,"7,083,551",5666.840799,2833.420399,11333.6816
+20 May 2021 to 02 June 2021,74,North West,0.34,0.25,0.47,Non-overlapping 14-day weighted estimates,"7,083,551",24084.0734,17708.8775,33292.68969
+03 June 2021 to 16 June 2021,76,North West,0.47,0.35,0.61,Non-overlapping 14-day weighted estimates,"7,083,551",33292.68969,24792.4285,43209.66109
+17 June 2021 to 30 June 2021,78,North West,1.12,0.91,1.37,Non-overlapping 14-day weighted estimates,"7,083,551",79335.77119,64460.31409,97044.64868
+01 July 2021 to 14 July 2021,80,North West,1.75,1.50,2.02,Non-overlapping 14-day weighted estimates,"7,083,551",123962.1425,106253.265,143087.7302
+15 July 2021 to 28 July 2021,82,North West,1.79,1.52,2.08,Non-overlapping 14-day weighted estimates,"7,083,551",126795.5629,107669.9752,147337.8608
+29 July 2021 to 11 August 2021,84,North West,1.35,1.15,1.58,Non-overlapping 14-day weighted estimates,"7,083,551",95627.93848,81460.83649,111920.1058
+12 August 2021 to 25 August 2021,86,North West,1.57,1.33,1.83,Non-overlapping 14-day weighted estimates,"7,083,551",111211.7507,94211.22828,129628.9833
+26 August 2021 to 08 September 2021,88,North West,1.19,0.98,1.42,Non-overlapping 14-day weighted estimates,"7,083,551",84294.25688,69418.79979,100586.4242
+09 September 2021 to 22 September 2021,90,North West,1.33,1.13,1.55,Non-overlapping 14-day weighted estimates,"7,083,551",94211.22828,80044.12629,109795.0405
+23 September 2021 to 06 October 2021,92,North West,1.66,1.45,1.90,Non-overlapping 14-day weighted estimates,"7,083,551",117586.9466,102711.4895,134587.469
+07 October 2021 to 20 October 2021,94,North West,2.16,1.92,2.42,Non-overlapping 14-day weighted estimates,"7,083,551",153004.7016,136004.1792,171421.9342
+21 October 2021 to 03 November 2021,96,North West,1.88,1.65,2.13,Non-overlapping 14-day weighted estimates,"7,083,551",133170.7588,116878.5915,150879.6363
+04 November 2021 to 17 November 2021,98,North West,1.43,1.25,1.63,Non-overlapping 14-day weighted estimates,"7,083,551",101294.7793,88544.38748,115461.8813
+18 November 2021 to 01 December 2021,100,North West,1.45,1.25,1.68,Non-overlapping 14-day weighted estimates,"7,083,551",102711.4895,88544.38748,119003.6568
+07 May 2020 to 20 May 2020,20,Yorkshire and The Humber,0.29,0.08,0.74,Non-overlapping 14-day weighted estimates,"5,315,072",15413.70973,4252.057856,39331.53516
+21 May 2020 to 03 June 2020,22,Yorkshire and The Humber,0.11,0.03,0.29,Non-overlapping 14-day weighted estimates,"5,315,072",5846.579552,1594.521696,15413.70973
+04 June 2020 to 17 June 2020,24,Yorkshire and The Humber,0.21,0.04,0.65,Non-overlapping 14-day weighted estimates,"5,315,072",11161.65187,2126.028928,34547.97008
+18 June 2020 to 01 July 2020,26,Yorkshire and The Humber,0.09,0.01,0.28,Non-overlapping 14-day weighted estimates,"5,315,072",4783.565088,531.507232,14882.20249
+02 July 2020 to 15 July 2020,28,Yorkshire and The Humber,0.03,0.00,0.12,Non-overlapping 14-day weighted estimates,"5,315,072",1594.521696,0,6378.086783
+16 July 2020 to 29 July 2020,30,Yorkshire and The Humber,0.05,0.01,0.16,Non-overlapping 14-day weighted estimates,"5,315,072",2657.53616,531.507232,8504.115711
+30 July 2020 to 12 August 2020,32,Yorkshire and The Humber,0.10,0.02,0.30,Non-overlapping 14-day weighted estimates,"5,315,072",5315.07232,1063.014464,15945.21696
+13 August 2020 to 26 August 2020,34,Yorkshire and The Humber,0.15,0.05,0.34,Non-overlapping 14-day weighted estimates,"5,315,072",7972.608479,2657.53616,18071.24589
+27 August 2020 to 09 September 2020,36,Yorkshire and The Humber,0.14,0.06,0.28,Non-overlapping 14-day weighted estimates,"5,315,072",7441.101247,3189.043392,14882.20249
+10 September 2020 to 23 September 2020,38,Yorkshire and The Humber,0.23,0.16,0.33,Non-overlapping 14-day weighted estimates,"5,315,072",12224.66634,8504.115711,17539.73865
+24 September 2020 to 07 October 2020,40,Yorkshire and The Humber,1.24,1.02,1.50,Non-overlapping 14-day weighted estimates,"5,315,072",65906.89676,54213.73766,79726.08479
+08 October 2020 to 21 October 2020,42,Yorkshire and The Humber,1.83,1.60,2.09,Non-overlapping 14-day weighted estimates,"5,315,072",97265.82345,85041.15711,111085.0115
+22 October 2020 to 04 November 2020,44,Yorkshire and The Humber,2.52,2.22,2.84,Non-overlapping 14-day weighted estimates,"5,315,072",133939.8225,117994.6055,150948.0539
+05 November 2020 to 18 November 2020,46,Yorkshire and The Humber,2.12,1.87,2.40,Non-overlapping 14-day weighted estimates,"5,315,072",112679.5332,99391.85238,127561.7357
+19 November 2020 to 02 December 2020,48,Yorkshire and The Humber,1.85,1.61,2.11,Non-overlapping 14-day weighted estimates,"5,315,072",98328.83791,85572.66435,112148.0259
+03 December 2020 to 16 December 2020,50,Yorkshire and The Humber,1.22,1.03,1.43,Non-overlapping 14-day weighted estimates,"5,315,072",64843.8823,54745.24489,76005.53417
+17 December 2020 to 30 December 2020,52,Yorkshire and The Humber,1.15,0.94,1.39,Non-overlapping 14-day weighted estimates,"5,315,072",61123.33168,49961.6798,73879.50524
+31 December 2020 to 13 January 2021,54,Yorkshire and The Humber,1.38,1.15,1.65,Non-overlapping 14-day weighted estimates,"5,315,072",73347.99801,61123.33168,87698.69327
+14 January 2021 to 27 January 2021,56,Yorkshire and The Humber,1.41,1.18,1.67,Non-overlapping 14-day weighted estimates,"5,315,072",74942.51971,62717.85337,88761.70774
+28 January 2021 to 10 February 2021,58,Yorkshire and The Humber,1.00,0.82,1.21,Non-overlapping 14-day weighted estimates,"5,315,072",53150.7232,43583.59302,64312.37507
+11 February 2021 to 24 February 2021,60,Yorkshire and The Humber,0.81,0.64,1.01,Non-overlapping 14-day weighted estimates,"5,315,072",43052.08579,34016.46285,53682.23043
+25 February 2021 to 10 March 2021,62,Yorkshire and The Humber,0.54,0.40,0.72,Non-overlapping 14-day weighted estimates,"5,315,072",28701.39053,21260.28928,38268.5207
+11 March 2021 to 24 March 2021,64,Yorkshire and The Humber,0.55,0.40,0.74,Non-overlapping 14-day weighted estimates,"5,315,072",29232.89776,21260.28928,39331.53516
+25 March 2021 to 07 April 2021,66,Yorkshire and The Humber,0.37,0.26,0.51,Non-overlapping 14-day weighted estimates,"5,315,072",19665.76758,13819.18803,27106.86883
+08 April 2021 to 21 April 2021,68,Yorkshire and The Humber,0.22,0.12,0.38,Non-overlapping 14-day weighted estimates,"5,315,072",11693.1591,6378.086783,20197.27481
+22 April 2021 to 05 May 2021,70,Yorkshire and The Humber,0.21,0.13,0.33,Non-overlapping 14-day weighted estimates,"5,315,072",11161.65187,6909.594015,17539.73865
+06 May 2021 to 19 May 2021,72,Yorkshire and The Humber,0.17,0.10,0.27,Non-overlapping 14-day weighted estimates,"5,315,072",9035.622943,5315.07232,14350.69526
+20 May 2021 to 02 June 2021,74,Yorkshire and The Humber,0.20,0.13,0.30,Non-overlapping 14-day weighted estimates,"5,315,072",10630.14464,6909.594015,15945.21696
+03 June 2021 to 16 June 2021,76,Yorkshire and The Humber,0.25,0.15,0.39,Non-overlapping 14-day weighted estimates,"5,315,072",13287.6808,7972.608479,20728.78205
+17 June 2021 to 30 June 2021,78,Yorkshire and The Humber,0.55,0.40,0.76,Non-overlapping 14-day weighted estimates,"5,315,072",29232.89776,21260.28928,40394.54963
+01 July 2021 to 14 July 2021,80,Yorkshire and The Humber,1.15,0.92,1.41,Non-overlapping 14-day weighted estimates,"5,315,072",61123.33168,48898.66534,74942.51971
+15 July 2021 to 28 July 2021,82,Yorkshire and The Humber,1.59,1.31,1.91,Non-overlapping 14-day weighted estimates,"5,315,072",84509.64988,69627.44739,101517.8813
+29 July 2021 to 11 August 2021,84,Yorkshire and The Humber,2.14,1.82,2.51,Non-overlapping 14-day weighted estimates,"5,315,072",113742.5476,96734.31622,133408.3152
+12 August 2021 to 25 August 2021,86,Yorkshire and The Humber,1.69,1.41,2.01,Non-overlapping 14-day weighted estimates,"5,315,072",89824.7222,74942.51971,106832.9536
+26 August 2021 to 08 September 2021,88,Yorkshire and The Humber,1.60,1.33,1.91,Non-overlapping 14-day weighted estimates,"5,315,072",85041.15711,70690.46185,101517.8813
+09 September 2021 to 22 September 2021,90,Yorkshire and The Humber,1.37,1.14,1.63,Non-overlapping 14-day weighted estimates,"5,315,072",72816.49078,60591.82444,86635.67881
+23 September 2021 to 06 October 2021,92,Yorkshire and The Humber,1.84,1.58,2.14,Non-overlapping 14-day weighted estimates,"5,315,072",97797.33068,83978.14265,113742.5476
+07 October 2021 to 20 October 2021,94,Yorkshire and The Humber,2.01,1.73,2.31,Non-overlapping 14-day weighted estimates,"5,315,072",106832.9536,91950.75113,122778.1706
+21 October 2021 to 03 November 2021,96,Yorkshire and The Humber,2.26,1.96,2.58,Non-overlapping 14-day weighted estimates,"5,315,072",120120.6344,104175.4175,137128.8658
+04 November 2021 to 17 November 2021,98,Yorkshire and The Humber,1.69,1.45,1.97,Non-overlapping 14-day weighted estimates,"5,315,072",89824.7222,77068.54863,104706.9247
+18 November 2021 to 01 December 2021,100,Yorkshire and The Humber,1.57,1.32,1.85,Non-overlapping 14-day weighted estimates,"5,315,072",83446.63542,70158.95462,98328.83791
+07 May 2020 to 20 May 2020,20,East Midlands,0.75,0.27,1.62,Non-overlapping 14-day weighted estimates,"4,692,054",35190.40274,12668.54499,76011.26991
+21 May 2020 to 03 June 2020,22,East Midlands,0.40,0.12,0.96,Non-overlapping 14-day weighted estimates,"4,692,054",18768.21479,5630.464438,45043.7155
+04 June 2020 to 17 June 2020,24,East Midlands,0.14,0.04,0.38,Non-overlapping 14-day weighted estimates,"4,692,054",6568.875178,1876.821479,17829.80405
+18 June 2020 to 01 July 2020,26,East Midlands,0.03,0.00,0.17,Non-overlapping 14-day weighted estimates,"4,692,054",1407.616109,0,7976.491287
+02 July 2020 to 15 July 2020,28,East Midlands,0.08,0.01,0.28,Non-overlapping 14-day weighted estimates,"4,692,054",3753.642959,469.2053698,13137.75036
+16 July 2020 to 29 July 2020,30,East Midlands,0.06,0.01,0.24,Non-overlapping 14-day weighted estimates,"4,692,054",2815.232219,469.2053698,11260.92888
+30 July 2020 to 12 August 2020,32,East Midlands,0.01,0.00,0.03,Non-overlapping 14-day weighted estimates,"4,692,054",469.2053698,0,1407.616109
+13 August 2020 to 26 August 2020,34,East Midlands,0.03,0.00,0.17,Non-overlapping 14-day weighted estimates,"4,692,054",1407.616109,0,7976.491287
+27 August 2020 to 09 September 2020,36,East Midlands,0.11,0.03,0.28,Non-overlapping 14-day weighted estimates,"4,692,054",5161.259068,1407.616109,13137.75036
+10 September 2020 to 23 September 2020,38,East Midlands,0.14,0.06,0.28,Non-overlapping 14-day weighted estimates,"4,692,054",6568.875178,2815.232219,13137.75036
+24 September 2020 to 07 October 2020,40,East Midlands,0.50,0.36,0.68,Non-overlapping 14-day weighted estimates,"4,692,054",23460.26849,16891.39331,31905.96515
+08 October 2020 to 21 October 2020,42,East Midlands,1.15,0.94,1.39,Non-overlapping 14-day weighted estimates,"4,692,054",53958.61753,44105.30476,65219.54641
+22 October 2020 to 04 November 2020,44,East Midlands,1.50,1.26,1.78,Non-overlapping 14-day weighted estimates,"4,692,054",70380.80547,59119.8766,83518.55583
+05 November 2020 to 18 November 2020,46,East Midlands,1.31,1.09,1.56,Non-overlapping 14-day weighted estimates,"4,692,054",61465.90345,51143.38531,73196.03769
+19 November 2020 to 02 December 2020,48,East Midlands,1.43,1.19,1.70,Non-overlapping 14-day weighted estimates,"4,692,054",67096.36788,55835.43901,79764.91287
+03 December 2020 to 16 December 2020,50,East Midlands,1.31,1.09,1.56,Non-overlapping 14-day weighted estimates,"4,692,054",61465.90345,51143.38531,73196.03769
+17 December 2020 to 30 December 2020,52,East Midlands,1.53,1.26,1.84,Non-overlapping 14-day weighted estimates,"4,692,054",71788.42158,59119.8766,86333.78805
+31 December 2020 to 13 January 2021,54,East Midlands,1.81,1.52,2.14,Non-overlapping 14-day weighted estimates,"4,692,054",84926.17194,71319.21621,100409.9491
+14 January 2021 to 27 January 2021,56,East Midlands,1.69,1.41,2.00,Non-overlapping 14-day weighted estimates,"4,692,054",79295.7075,66157.95714,93841.07396
+28 January 2021 to 10 February 2021,58,East Midlands,1.22,1.01,1.47,Non-overlapping 14-day weighted estimates,"4,692,054",57243.05512,47389.74235,68973.18936
+11 February 2021 to 24 February 2021,60,East Midlands,0.66,0.50,0.85,Non-overlapping 14-day weighted estimates,"4,692,054",30967.55441,23460.26849,39882.45643
+25 February 2021 to 10 March 2021,62,East Midlands,0.39,0.27,0.56,Non-overlapping 14-day weighted estimates,"4,692,054",18299.00942,12668.54499,26275.50071
+11 March 2021 to 24 March 2021,64,East Midlands,0.39,0.26,0.55,Non-overlapping 14-day weighted estimates,"4,692,054",18299.00942,12199.33962,25806.29534
+25 March 2021 to 07 April 2021,66,East Midlands,0.36,0.23,0.53,Non-overlapping 14-day weighted estimates,"4,692,054",16891.39331,10791.72351,24867.8846
+08 April 2021 to 21 April 2021,68,East Midlands,0.16,0.09,0.27,Non-overlapping 14-day weighted estimates,"4,692,054",7507.285917,4222.848328,12668.54499
+22 April 2021 to 05 May 2021,70,East Midlands,0.09,0.03,0.23,Non-overlapping 14-day weighted estimates,"4,692,054",4222.848328,1407.616109,10791.72351
+06 May 2021 to 19 May 2021,72,East Midlands,0.11,0.05,0.22,Non-overlapping 14-day weighted estimates,"4,692,054",5161.259068,2346.026849,10322.51814
+20 May 2021 to 02 June 2021,74,East Midlands,0.25,0.15,0.40,Non-overlapping 14-day weighted estimates,"4,692,054",11730.13425,7038.080547,18768.21479
+03 June 2021 to 16 June 2021,76,East Midlands,0.11,0.05,0.23,Non-overlapping 14-day weighted estimates,"4,692,054",5161.259068,2346.026849,10791.72351
+17 June 2021 to 30 June 2021,78,East Midlands,0.53,0.35,0.76,Non-overlapping 14-day weighted estimates,"4,692,054",24867.8846,16422.18794,35659.60811
+01 July 2021 to 14 July 2021,80,East Midlands,1.03,0.78,1.34,Non-overlapping 14-day weighted estimates,"4,692,054",48328.15309,36598.01885,62873.51956
+15 July 2021 to 28 July 2021,82,East Midlands,1.59,1.28,1.95,Non-overlapping 14-day weighted estimates,"4,692,054",74603.6538,60058.28734,91495.04712
+29 July 2021 to 11 August 2021,84,East Midlands,1.21,0.96,1.50,Non-overlapping 14-day weighted estimates,"4,692,054",56773.84975,45043.7155,70380.80547
+12 August 2021 to 25 August 2021,86,East Midlands,1.30,1.03,1.62,Non-overlapping 14-day weighted estimates,"4,692,054",60996.69808,48328.15309,76011.26991
+26 August 2021 to 08 September 2021,88,East Midlands,1.36,1.09,1.67,Non-overlapping 14-day weighted estimates,"4,692,054",63811.9303,51143.38531,78357.29676
+09 September 2021 to 22 September 2021,90,East Midlands,1.26,1.00,1.56,Non-overlapping 14-day weighted estimates,"4,692,054",59119.8766,46920.53698,73196.03769
+23 September 2021 to 06 October 2021,92,East Midlands,1.95,1.62,2.33,Non-overlapping 14-day weighted estimates,"4,692,054",91495.04712,76011.26991,109324.8512
+07 October 2021 to 20 October 2021,94,East Midlands,1.88,1.57,2.24,Non-overlapping 14-day weighted estimates,"4,692,054",88210.60953,73665.24306,105102.0028
+21 October 2021 to 03 November 2021,96,East Midlands,1.83,1.52,2.18,Non-overlapping 14-day weighted estimates,"4,692,054",85864.58268,71319.21621,102286.7706
+04 November 2021 to 17 November 2021,98,East Midlands,1.85,1.55,2.19,Non-overlapping 14-day weighted estimates,"4,692,054",86802.99342,72726.83232,102755.976
+18 November 2021 to 01 December 2021,100,East Midlands,1.88,1.56,2.24,Non-overlapping 14-day weighted estimates,"4,692,054",88210.60953,73196.03769,105102.0028
+07 May 2020 to 20 May 2020,20,West Midlands,0.31,0.11,0.69,Non-overlapping 14-day weighted estimates,"5,764,061",17868.59048,6340.467591,39772.02398
+21 May 2020 to 03 June 2020,22,West Midlands,0.15,0.02,0.54,Non-overlapping 14-day weighted estimates,"5,764,061",8646.092169,1152.812289,31125.93181
+04 June 2020 to 17 June 2020,24,West Midlands,0.07,0.00,0.37,Non-overlapping 14-day weighted estimates,"5,764,061",4034.843012,0,21327.02735
+18 June 2020 to 01 July 2020,26,West Midlands,0.00,-,0.16,Non-overlapping 14-day weighted estimates,"5,764,061",0,0,9222.498314
+02 July 2020 to 15 July 2020,28,West Midlands,0.02,0.00,0.10,Non-overlapping 14-day weighted estimates,"5,764,061",1152.812289,0,5764.061446
+16 July 2020 to 29 July 2020,30,West Midlands,0.06,0.01,0.23,Non-overlapping 14-day weighted estimates,"5,764,061",3458.436868,576.4061446,13257.34133
+30 July 2020 to 12 August 2020,32,West Midlands,0.04,0.01,0.13,Non-overlapping 14-day weighted estimates,"5,764,061",2305.624578,576.4061446,7493.27988
+13 August 2020 to 26 August 2020,34,West Midlands,0.02,0.00,0.08,Non-overlapping 14-day weighted estimates,"5,764,061",1152.812289,0,4611.249157
+27 August 2020 to 09 September 2020,36,West Midlands,0.07,0.00,0.32,Non-overlapping 14-day weighted estimates,"5,764,061",4034.843012,0,18444.99663
+10 September 2020 to 23 September 2020,38,West Midlands,0.13,0.06,0.27,Non-overlapping 14-day weighted estimates,"5,764,061",7493.27988,3458.436868,15562.9659
+24 September 2020 to 07 October 2020,40,West Midlands,0.46,0.33,0.63,Non-overlapping 14-day weighted estimates,"5,764,061",26514.68265,19021.40277,36313.58711
+08 October 2020 to 21 October 2020,42,West Midlands,1.16,0.97,1.38,Non-overlapping 14-day weighted estimates,"5,764,061",66863.11277,55911.39603,79544.04796
+22 October 2020 to 04 November 2020,44,West Midlands,1.45,1.22,1.72,Non-overlapping 14-day weighted estimates,"5,764,061",83578.89097,70321.54964,99141.85687
+05 November 2020 to 18 November 2020,46,West Midlands,1.78,1.53,2.05,Non-overlapping 14-day weighted estimates,"5,764,061",102600.2937,88190.14012,118163.2596
+19 November 2020 to 02 December 2020,48,West Midlands,1.33,1.12,1.57,Non-overlapping 14-day weighted estimates,"5,764,061",76662.01723,64557.4882,90495.7647
+03 December 2020 to 16 December 2020,50,West Midlands,1.11,0.92,1.34,Non-overlapping 14-day weighted estimates,"5,764,061",63981.08205,53029.3653,77238.42338
+17 December 2020 to 30 December 2020,52,West Midlands,1.72,1.45,2.02,Non-overlapping 14-day weighted estimates,"5,764,061",99141.85687,83578.89097,116434.0412
+31 December 2020 to 13 January 2021,54,West Midlands,1.97,1.69,2.28,Non-overlapping 14-day weighted estimates,"5,764,061",113552.0105,97412.63844,131420.601
+14 January 2021 to 27 January 2021,56,West Midlands,1.96,1.68,2.28,Non-overlapping 14-day weighted estimates,"5,764,061",112975.6043,96836.23229,131420.601
+28 January 2021 to 10 February 2021,58,West Midlands,1.40,1.18,1.65,Non-overlapping 14-day weighted estimates,"5,764,061",80696.86024,68015.92506,95107.01386
+11 February 2021 to 24 February 2021,60,West Midlands,0.84,0.66,1.04,Non-overlapping 14-day weighted estimates,"5,764,061",48418.11615,38042.80554,59946.23904
+25 February 2021 to 10 March 2021,62,West Midlands,0.49,0.36,0.66,Non-overlapping 14-day weighted estimates,"5,764,061",28243.90109,20750.62121,38042.80554
+11 March 2021 to 24 March 2021,64,West Midlands,0.39,0.26,0.54,Non-overlapping 14-day weighted estimates,"5,764,061",22479.83964,14986.55976,31125.93181
+25 March 2021 to 07 April 2021,66,West Midlands,0.24,0.15,0.36,Non-overlapping 14-day weighted estimates,"5,764,061",13833.74747,8646.092169,20750.62121
+08 April 2021 to 21 April 2021,68,West Midlands,0.20,0.11,0.32,Non-overlapping 14-day weighted estimates,"5,764,061",11528.12289,6340.467591,18444.99663
+22 April 2021 to 05 May 2021,70,West Midlands,0.03,0.01,0.08,Non-overlapping 14-day weighted estimates,"5,764,061",1729.218434,576.4061446,4611.249157
+06 May 2021 to 19 May 2021,72,West Midlands,0.05,0.01,0.11,Non-overlapping 14-day weighted estimates,"5,764,061",2882.030723,576.4061446,6340.467591
+20 May 2021 to 02 June 2021,74,West Midlands,0.10,0.04,0.21,Non-overlapping 14-day weighted estimates,"5,764,061",5764.061446,2305.624578,12104.52904
+03 June 2021 to 16 June 2021,76,West Midlands,0.18,0.09,0.32,Non-overlapping 14-day weighted estimates,"5,764,061",10375.3106,5187.655301,18444.99663
+17 June 2021 to 30 June 2021,78,West Midlands,0.39,0.28,0.54,Non-overlapping 14-day weighted estimates,"5,764,061",22479.83964,16139.37205,31125.93181
+01 July 2021 to 14 July 2021,80,West Midlands,0.93,0.74,1.16,Non-overlapping 14-day weighted estimates,"5,764,061",53605.77145,42654.0547,66863.11277
+15 July 2021 to 28 July 2021,82,West Midlands,1.71,1.43,2.03,Non-overlapping 14-day weighted estimates,"5,764,061",98565.45073,82426.07868,117010.4474
+29 July 2021 to 11 August 2021,84,West Midlands,1.24,0.99,1.52,Non-overlapping 14-day weighted estimates,"5,764,061",71474.36193,57064.20832,87613.73398
+12 August 2021 to 25 August 2021,86,West Midlands,1.29,1.05,1.56,Non-overlapping 14-day weighted estimates,"5,764,061",74356.39265,60522.64518,89919.35856
+26 August 2021 to 08 September 2021,88,West Midlands,1.26,1.01,1.54,Non-overlapping 14-day weighted estimates,"5,764,061",72627.17422,58217.0206,88766.54627
+09 September 2021 to 22 September 2021,90,West Midlands,1.14,0.93,1.38,Non-overlapping 14-day weighted estimates,"5,764,061",65710.30048,53605.77145,79544.04796
+23 September 2021 to 06 October 2021,92,West Midlands,1.66,1.40,1.95,Non-overlapping 14-day weighted estimates,"5,764,061",95683.42,80696.86024,112399.1982
+07 October 2021 to 20 October 2021,94,West Midlands,1.89,1.63,2.17,Non-overlapping 14-day weighted estimates,"5,764,061",108940.7613,93954.20157,125080.1334
+21 October 2021 to 03 November 2021,96,West Midlands,1.85,1.58,2.15,Non-overlapping 14-day weighted estimates,"5,764,061",106635.1368,91072.17085,123927.3211
+04 November 2021 to 17 November 2021,98,West Midlands,1.82,1.56,2.12,Non-overlapping 14-day weighted estimates,"5,764,061",104905.9183,89919.35856,122198.1027
+18 November 2021 to 01 December 2021,100,West Midlands,1.52,1.26,1.81,Non-overlapping 14-day weighted estimates,"5,764,061",87613.73398,72627.17422,104329.5122
+07 May 2020 to 20 May 2020,20,East of England,0.06,0.01,0.21,Non-overlapping 14-day weighted estimates,"6,046,030",3627.617804,604.6029673,12696.66231
+21 May 2020 to 03 June 2020,22,East of England,0.00,-,0.16,Non-overlapping 14-day weighted estimates,"6,046,030",0,0,9673.647477
+04 June 2020 to 17 June 2020,24,East of England,0.03,0.00,0.17,Non-overlapping 14-day weighted estimates,"6,046,030",1813.808902,0,10278.25044
+18 June 2020 to 01 July 2020,26,East of England,0.08,0.01,0.30,Non-overlapping 14-day weighted estimates,"6,046,030",4836.823739,604.6029673,18138.08902
+02 July 2020 to 15 July 2020,28,East of England,0.01,0.00,0.08,Non-overlapping 14-day weighted estimates,"6,046,030",604.6029673,0,4836.823739
+16 July 2020 to 29 July 2020,30,East of England,0.10,0.02,0.28,Non-overlapping 14-day weighted estimates,"6,046,030",6046.029673,1209.205935,16928.88309
+30 July 2020 to 12 August 2020,32,East of England,0.02,0.00,0.12,Non-overlapping 14-day weighted estimates,"6,046,030",1209.205935,0,7255.235608
+13 August 2020 to 26 August 2020,34,East of England,0.05,0.01,0.14,Non-overlapping 14-day weighted estimates,"6,046,030",3023.014837,604.6029673,8464.441543
+27 August 2020 to 09 September 2020,36,East of England,0.14,0.04,0.32,Non-overlapping 14-day weighted estimates,"6,046,030",8464.441543,2418.411869,19347.29495
+10 September 2020 to 23 September 2020,38,East of England,0.12,0.05,0.23,Non-overlapping 14-day weighted estimates,"6,046,030",7255.235608,3023.014837,13905.86825
+24 September 2020 to 07 October 2020,40,East of England,0.30,0.21,0.42,Non-overlapping 14-day weighted estimates,"6,046,030",18138.08902,12696.66231,25393.32463
+08 October 2020 to 21 October 2020,42,East of England,0.48,0.38,0.61,Non-overlapping 14-day weighted estimates,"6,046,030",29020.94243,22974.91276,36880.78101
+22 October 2020 to 04 November 2020,44,East of England,0.64,0.52,0.77,Non-overlapping 14-day weighted estimates,"6,046,030",38694.58991,31439.3543,46554.42848
+05 November 2020 to 18 November 2020,46,East of England,0.68,0.57,0.82,Non-overlapping 14-day weighted estimates,"6,046,030",41113.00178,34462.36914,49577.44332
+19 November 2020 to 02 December 2020,48,East of England,0.61,0.50,0.75,Non-overlapping 14-day weighted estimates,"6,046,030",36880.78101,30230.14837,45345.22255
+03 December 2020 to 16 December 2020,50,East of England,1.20,1.03,1.40,Non-overlapping 14-day weighted estimates,"6,046,030",72552.35608,62274.10564,84644.41543
+17 December 2020 to 30 December 2020,52,East of England,2.48,2.21,2.77,Non-overlapping 14-day weighted estimates,"6,046,030",149941.5359,133617.2558,167475.022
+31 December 2020 to 13 January 2021,54,East of England,1.96,1.74,2.21,Non-overlapping 14-day weighted estimates,"6,046,030",118502.1816,105200.9163,133617.2558
+14 January 2021 to 27 January 2021,56,East of England,1.77,1.55,2.00,Non-overlapping 14-day weighted estimates,"6,046,030",107014.7252,93713.45994,120920.5935
+28 January 2021 to 10 February 2021,58,East of England,1.40,1.21,1.61,Non-overlapping 14-day weighted estimates,"6,046,030",84644.41543,73156.95905,97341.07774
+11 February 2021 to 24 February 2021,60,East of England,0.50,0.38,0.64,Non-overlapping 14-day weighted estimates,"6,046,030",30230.14837,22974.91276,38694.58991
+25 February 2021 to 10 March 2021,62,East of England,0.35,0.25,0.47,Non-overlapping 14-day weighted estimates,"6,046,030",21161.10386,15115.07418,28416.33946
+11 March 2021 to 24 March 2021,64,East of England,0.16,0.10,0.24,Non-overlapping 14-day weighted estimates,"6,046,030",9673.647477,6046.029673,14510.47122
+25 March 2021 to 07 April 2021,66,East of England,0.18,0.10,0.31,Non-overlapping 14-day weighted estimates,"6,046,030",10882.85341,6046.029673,18742.69199
+08 April 2021 to 21 April 2021,68,East of England,0.08,0.03,0.16,Non-overlapping 14-day weighted estimates,"6,046,030",4836.823739,1813.808902,9673.647477
+22 April 2021 to 05 May 2021,70,East of England,0.04,0.01,0.09,Non-overlapping 14-day weighted estimates,"6,046,030",2418.411869,604.6029673,5441.426706
+06 May 2021 to 19 May 2021,72,East of England,0.09,0.04,0.16,Non-overlapping 14-day weighted estimates,"6,046,030",5441.426706,2418.411869,9673.647477
+20 May 2021 to 02 June 2021,74,East of England,0.11,0.04,0.23,Non-overlapping 14-day weighted estimates,"6,046,030",6650.632641,2418.411869,13905.86825
+03 June 2021 to 16 June 2021,76,East of England,0.07,0.03,0.13,Non-overlapping 14-day weighted estimates,"6,046,030",4232.220771,1813.808902,7859.838575
+17 June 2021 to 30 June 2021,78,East of England,0.33,0.20,0.52,Non-overlapping 14-day weighted estimates,"6,046,030",19951.89792,12092.05935,31439.3543
+01 July 2021 to 14 July 2021,80,East of England,0.73,0.56,0.95,Non-overlapping 14-day weighted estimates,"6,046,030",44136.01662,33857.76617,57437.2819
+15 July 2021 to 28 July 2021,82,East of England,0.79,0.62,0.98,Non-overlapping 14-day weighted estimates,"6,046,030",47763.63442,37485.38397,59251.0908
+29 July 2021 to 11 August 2021,84,East of England,1.13,0.91,1.38,Non-overlapping 14-day weighted estimates,"6,046,030",68320.13531,55018.87003,83435.20949
+12 August 2021 to 25 August 2021,86,East of England,1.34,1.10,1.61,Non-overlapping 14-day weighted estimates,"6,046,030",81016.79762,66506.32641,97341.07774
+26 August 2021 to 08 September 2021,88,East of England,1.05,0.85,1.27,Non-overlapping 14-day weighted estimates,"6,046,030",63483.31157,51391.25222,76784.57685
+09 September 2021 to 22 September 2021,90,East of England,0.99,0.81,1.20,Non-overlapping 14-day weighted estimates,"6,046,030",59855.69377,48972.84035,72552.35608
+23 September 2021 to 06 October 2021,92,East of England,1.37,1.16,1.61,Non-overlapping 14-day weighted estimates,"6,046,030",82830.60652,70133.94421,97341.07774
+07 October 2021 to 20 October 2021,94,East of England,1.88,1.64,2.13,Non-overlapping 14-day weighted estimates,"6,046,030",113665.3579,99154.88664,128780.432
+21 October 2021 to 03 November 2021,96,East of England,1.82,1.57,2.09,Non-overlapping 14-day weighted estimates,"6,046,030",110037.7401,94922.66587,126362.0202
+04 November 2021 to 17 November 2021,98,East of England,1.71,1.48,1.96,Non-overlapping 14-day weighted estimates,"6,046,030",103387.1074,89481.23917,118502.1816
+18 November 2021 to 01 December 2021,100,East of England,1.57,1.33,1.84,Non-overlapping 14-day weighted estimates,"6,046,030",94922.66587,80412.19466,111246.946
+07 May 2020 to 20 May 2020,20,London,0.32,0.12,0.68,Non-overlapping 14-day weighted estimates,"8,719,015",27900.84679,10462.81755,59289.29943
+21 May 2020 to 03 June 2020,22,London,0.00,-,0.21,Non-overlapping 14-day weighted estimates,"8,719,015",0,0,18309.93071
+04 June 2020 to 17 June 2020,24,London,0.13,0.02,0.46,Non-overlapping 14-day weighted estimates,"8,719,015",11334.71901,1743.802924,40107.46726
+18 June 2020 to 01 July 2020,26,London,0.23,0.05,0.66,Non-overlapping 14-day weighted estimates,"8,719,015",20053.73363,4359.507311,57545.49651
+02 July 2020 to 15 July 2020,28,London,0.14,0.03,0.37,Non-overlapping 14-day weighted estimates,"8,719,015",12206.62047,2615.704387,32260.3541
+16 July 2020 to 29 July 2020,30,London,0.19,0.04,0.53,Non-overlapping 14-day weighted estimates,"8,719,015",16566.12778,3487.605849,46210.7775
+30 July 2020 to 12 August 2020,32,London,0.03,0.00,0.14,Non-overlapping 14-day weighted estimates,"8,719,015",2615.704387,0,12206.62047
+13 August 2020 to 26 August 2020,34,London,0.07,0.01,0.20,Non-overlapping 14-day weighted estimates,"8,719,015",6103.310236,871.9014622,17438.02924
+27 August 2020 to 09 September 2020,36,London,0.22,0.12,0.36,Non-overlapping 14-day weighted estimates,"8,719,015",19181.83217,10462.81755,31388.45264
+10 September 2020 to 23 September 2020,38,London,0.32,0.22,0.45,Non-overlapping 14-day weighted estimates,"8,719,015",27900.84679,19181.83217,39235.5658
+24 September 2020 to 07 October 2020,40,London,0.46,0.37,0.56,Non-overlapping 14-day weighted estimates,"8,719,015",40107.46726,32260.3541,48826.48188
+08 October 2020 to 21 October 2020,42,London,0.77,0.67,0.89,Non-overlapping 14-day weighted estimates,"8,719,015",67136.41259,58417.39797,77599.23014
+22 October 2020 to 04 November 2020,44,London,0.93,0.80,1.07,Non-overlapping 14-day weighted estimates,"8,719,015",81086.83599,69752.11698,93293.45646
+05 November 2020 to 18 November 2020,46,London,1.16,1.03,1.31,Non-overlapping 14-day weighted estimates,"8,719,015",101140.5696,89805.85061,114219.0916
+19 November 2020 to 02 December 2020,48,London,1.00,0.88,1.13,Non-overlapping 14-day weighted estimates,"8,719,015",87190.14622,76727.32868,98524.86523
+03 December 2020 to 16 December 2020,50,London,1.81,1.64,1.99,Non-overlapping 14-day weighted estimates,"8,719,015",157814.1647,142991.8398,173508.391
+17 December 2020 to 30 December 2020,52,London,3.78,3.51,4.06,Non-overlapping 14-day weighted estimates,"8,719,015",329578.7527,306037.4132,353991.9937
+31 December 2020 to 13 January 2021,54,London,3.34,3.12,3.57,Non-overlapping 14-day weighted estimates,"8,719,015",291215.0884,272033.2562,311268.822
+14 January 2021 to 27 January 2021,56,London,2.94,2.73,3.16,Non-overlapping 14-day weighted estimates,"8,719,015",256339.0299,238029.0992,275520.8621
+28 January 2021 to 10 February 2021,58,London,1.66,1.51,1.81,Non-overlapping 14-day weighted estimates,"8,719,015",144735.6427,131657.1208,157814.1647
+11 February 2021 to 24 February 2021,60,London,0.79,0.69,0.91,Non-overlapping 14-day weighted estimates,"8,719,015",68880.21552,60161.20089,79343.03306
+25 February 2021 to 10 March 2021,62,London,0.30,0.24,0.38,Non-overlapping 14-day weighted estimates,"8,719,015",26157.04387,20925.63509,33132.25556
+11 March 2021 to 24 March 2021,64,London,0.29,0.23,0.37,Non-overlapping 14-day weighted estimates,"8,719,015",25285.1424,20053.73363,32260.3541
+25 March 2021 to 07 April 2021,66,London,0.25,0.18,0.33,Non-overlapping 14-day weighted estimates,"8,719,015",21797.53656,15694.22632,28772.74825
+08 April 2021 to 21 April 2021,68,London,0.14,0.09,0.20,Non-overlapping 14-day weighted estimates,"8,719,015",12206.62047,7847.11316,17438.02924
+22 April 2021 to 05 May 2021,70,London,0.10,0.07,0.15,Non-overlapping 14-day weighted estimates,"8,719,015",8719.014622,6103.310236,13078.52193
+06 May 2021 to 19 May 2021,72,London,0.13,0.08,0.20,Non-overlapping 14-day weighted estimates,"8,719,015",11334.71901,6975.211698,17438.02924
+20 May 2021 to 02 June 2021,74,London,0.21,0.14,0.30,Non-overlapping 14-day weighted estimates,"8,719,015",18309.93071,12206.62047,26157.04387
+03 June 2021 to 16 June 2021,76,London,0.25,0.18,0.33,Non-overlapping 14-day weighted estimates,"8,719,015",21797.53656,15694.22632,28772.74825
+17 June 2021 to 30 June 2021,78,London,0.39,0.31,0.48,Non-overlapping 14-day weighted estimates,"8,719,015",34004.15703,27028.94533,41851.27019
+01 July 2021 to 14 July 2021,80,London,1.01,0.87,1.17,Non-overlapping 14-day weighted estimates,"8,719,015",88062.04769,75855.42721,102012.4711
+15 July 2021 to 28 July 2021,82,London,1.63,1.45,1.82,Non-overlapping 14-day weighted estimates,"8,719,015",142119.9383,126425.712,158686.0661
+29 July 2021 to 11 August 2021,84,London,1.40,1.23,1.59,Non-overlapping 14-day weighted estimates,"8,719,015",122066.2047,107243.8799,138632.3325
+12 August 2021 to 25 August 2021,86,London,1.27,1.11,1.44,Non-overlapping 14-day weighted estimates,"8,719,015",110731.4857,96781.06231,125553.8106
+26 August 2021 to 08 September 2021,88,London,1.09,0.95,1.24,Non-overlapping 14-day weighted estimates,"8,719,015",95037.25938,82830.63891,108115.7813
+09 September 2021 to 22 September 2021,90,London,0.96,0.83,1.11,Non-overlapping 14-day weighted estimates,"8,719,015",83702.54037,72367.82137,96781.06231
+23 September 2021 to 06 October 2021,92,London,1.02,0.88,1.17,Non-overlapping 14-day weighted estimates,"8,719,015",88933.94915,76727.32868,102012.4711
+07 October 2021 to 20 October 2021,94,London,1.18,1.05,1.33,Non-overlapping 14-day weighted estimates,"8,719,015",102884.3725,91549.65353,115962.8945
+21 October 2021 to 03 November 2021,96,London,1.45,1.29,1.62,Non-overlapping 14-day weighted estimates,"8,719,015",126425.712,112475.2886,141248.0369
+04 November 2021 to 17 November 2021,98,London,1.26,1.10,1.42,Non-overlapping 14-day weighted estimates,"8,719,015",109859.5842,95909.16085,123810.0076
+18 November 2021 to 01 December 2021,100,London,1.63,1.45,1.83,Non-overlapping 14-day weighted estimates,"8,719,015",142119.9383,126425.712,159557.9676
+07 May 2020 to 20 May 2020,20,South East,0.36,0.16,0.69,Non-overlapping 14-day weighted estimates,"8,855,773",31880.78361,14169.23716,61104.83525
+21 May 2020 to 03 June 2020,22,South East,0.00,-,0.10,Non-overlapping 14-day weighted estimates,"8,855,773",0,0,8855.773225
+04 June 2020 to 17 June 2020,24,South East,0.03,0.00,0.12,Non-overlapping 14-day weighted estimates,"8,855,773",2656.731968,0,10626.92787
+18 June 2020 to 01 July 2020,26,South East,0.03,0.00,0.10,Non-overlapping 14-day weighted estimates,"8,855,773",2656.731968,0,8855.773225
+02 July 2020 to 15 July 2020,28,South East,0.03,0.01,0.11,Non-overlapping 14-day weighted estimates,"8,855,773",2656.731968,885.5773225,9741.350548
+16 July 2020 to 29 July 2020,30,South East,0.04,0.01,0.14,Non-overlapping 14-day weighted estimates,"8,855,773",3542.30929,885.5773225,12398.08252
+30 July 2020 to 12 August 2020,32,South East,0.03,0.00,0.12,Non-overlapping 14-day weighted estimates,"8,855,773",2656.731968,0,10626.92787
+13 August 2020 to 26 August 2020,34,South East,0.06,0.01,0.16,Non-overlapping 14-day weighted estimates,"8,855,773",5313.463935,885.5773225,14169.23716
+27 August 2020 to 09 September 2020,36,South East,0.10,0.05,0.19,Non-overlapping 14-day weighted estimates,"8,855,773",8855.773225,4427.886613,16825.96913
+10 September 2020 to 23 September 2020,38,South East,0.11,0.06,0.19,Non-overlapping 14-day weighted estimates,"8,855,773",9741.350548,5313.463935,16825.96913
+24 September 2020 to 07 October 2020,40,South East,0.25,0.18,0.34,Non-overlapping 14-day weighted estimates,"8,855,773",22139.43306,15940.39181,30109.62897
+08 October 2020 to 21 October 2020,42,South East,0.49,0.40,0.60,Non-overlapping 14-day weighted estimates,"8,855,773",43393.2888,35423.0929,53134.63935
+22 October 2020 to 04 November 2020,44,South East,0.68,0.56,0.82,Non-overlapping 14-day weighted estimates,"8,855,773",60219.25793,49592.33006,72617.34045
+05 November 2020 to 18 November 2020,46,South East,1.03,0.89,1.19,Non-overlapping 14-day weighted estimates,"8,855,773",91214.46422,78816.3817,105383.7014
+19 November 2020 to 02 December 2020,48,South East,0.92,0.78,1.07,Non-overlapping 14-day weighted estimates,"8,855,773",81473.11367,69075.03116,94756.77351
+03 December 2020 to 16 December 2020,50,South East,1.16,1.00,1.33,Non-overlapping 14-day weighted estimates,"8,855,773",102726.9694,88557.73225,117781.7839
+17 December 2020 to 30 December 2020,52,South East,2.14,1.91,2.39,Non-overlapping 14-day weighted estimates,"8,855,773",189513.547,169145.2686,211652.9801
+31 December 2020 to 13 January 2021,54,South East,2.18,1.96,2.41,Non-overlapping 14-day weighted estimates,"8,855,773",193055.8563,173573.1552,213424.1347
+14 January 2021 to 27 January 2021,56,South East,1.74,1.55,1.96,Non-overlapping 14-day weighted estimates,"8,855,773",154090.4541,137264.485,173573.1552
+28 January 2021 to 10 February 2021,58,South East,1.07,0.92,1.23,Non-overlapping 14-day weighted estimates,"8,855,773",94756.77351,81473.11367,108926.0107
+11 February 2021 to 24 February 2021,60,South East,0.53,0.43,0.65,Non-overlapping 14-day weighted estimates,"8,855,773",46935.59809,38079.82487,57562.52596
+25 February 2021 to 10 March 2021,62,South East,0.35,0.27,0.46,Non-overlapping 14-day weighted estimates,"8,855,773",30995.20629,23910.58771,40736.55684
+11 March 2021 to 24 March 2021,64,South East,0.17,0.11,0.24,Non-overlapping 14-day weighted estimates,"8,855,773",15054.81448,9741.350548,21253.85574
+25 March 2021 to 07 April 2021,66,South East,0.21,0.14,0.30,Non-overlapping 14-day weighted estimates,"8,855,773",18597.12377,12398.08252,26567.31968
+08 April 2021 to 21 April 2021,68,South East,0.16,0.09,0.27,Non-overlapping 14-day weighted estimates,"8,855,773",14169.23716,7970.195903,23910.58771
+22 April 2021 to 05 May 2021,70,South East,0.05,0.02,0.10,Non-overlapping 14-day weighted estimates,"8,855,773",4427.886613,1771.154645,8855.773225
+06 May 2021 to 19 May 2021,72,South East,0.08,0.04,0.16,Non-overlapping 14-day weighted estimates,"8,855,773",7084.61858,3542.30929,14169.23716
+20 May 2021 to 02 June 2021,74,South East,0.09,0.04,0.15,Non-overlapping 14-day weighted estimates,"8,855,773",7970.195903,3542.30929,13283.65984
+03 June 2021 to 16 June 2021,76,South East,0.10,0.05,0.16,Non-overlapping 14-day weighted estimates,"8,855,773",8855.773225,4427.886613,14169.23716
+17 June 2021 to 30 June 2021,78,South East,0.22,0.15,0.31,Non-overlapping 14-day weighted estimates,"8,855,773",19482.7011,13283.65984,27452.897
+01 July 2021 to 14 July 2021,80,South East,0.61,0.48,0.76,Non-overlapping 14-day weighted estimates,"8,855,773",54020.21667,42507.71148,67303.87651
+15 July 2021 to 28 July 2021,82,South East,1.09,0.92,1.28,Non-overlapping 14-day weighted estimates,"8,855,773",96527.92816,81473.11367,113353.8973
+29 July 2021 to 11 August 2021,84,South East,0.99,0.82,1.17,Non-overlapping 14-day weighted estimates,"8,855,773",87672.15493,72617.34045,103612.5467
+12 August 2021 to 25 August 2021,86,South East,1.12,0.96,1.31,Non-overlapping 14-day weighted estimates,"8,855,773",99184.66012,85015.42296,116010.6293
+26 August 2021 to 08 September 2021,88,South East,1.10,0.94,1.28,Non-overlapping 14-day weighted estimates,"8,855,773",97413.50548,83244.26832,113353.8973
+09 September 2021 to 22 September 2021,90,South East,1.05,0.88,1.24,Non-overlapping 14-day weighted estimates,"8,855,773",92985.61887,77930.80438,109811.588
+23 September 2021 to 06 October 2021,92,South East,1.23,1.07,1.41,Non-overlapping 14-day weighted estimates,"8,855,773",108926.0107,94756.77351,124866.4025
+07 October 2021 to 20 October 2021,94,South East,1.64,1.45,1.85,Non-overlapping 14-day weighted estimates,"8,855,773",145234.6809,128408.7118,163831.8047
+21 October 2021 to 03 November 2021,96,South East,1.82,1.62,2.04,Non-overlapping 14-day weighted estimates,"8,855,773",161175.0727,143463.5262,180657.7738
+04 November 2021 to 17 November 2021,98,South East,1.41,1.23,1.61,Non-overlapping 14-day weighted estimates,"8,855,773",124866.4025,108926.0107,142577.9489
+18 November 2021 to 01 December 2021,100,South East,1.90,1.68,2.13,Non-overlapping 14-day weighted estimates,"8,855,773",168259.6913,148776.9902,188627.9697
+07 May 2020 to 20 May 2020,20,South West,0.09,0.01,0.30,Non-overlapping 14-day weighted estimates,"5,473,731",4926.358233,547.373137,16421.19411
+21 May 2020 to 03 June 2020,22,South West,0.06,0.00,0.31,Non-overlapping 14-day weighted estimates,"5,473,731",3284.238822,0,16968.56725
+04 June 2020 to 17 June 2020,24,South West,0.00,-,0.11,Non-overlapping 14-day weighted estimates,"5,473,731",0,0,6021.104507
+18 June 2020 to 01 July 2020,26,South West,0.09,0.01,0.36,Non-overlapping 14-day weighted estimates,"5,473,731",4926.358233,547.373137,19705.43293
+02 July 2020 to 15 July 2020,28,South West,0.00,-,0.09,Non-overlapping 14-day weighted estimates,"5,473,731",0,0,4926.358233
+16 July 2020 to 29 July 2020,30,South West,0.04,0.00,0.13,Non-overlapping 14-day weighted estimates,"5,473,731",2189.492548,0,7115.850781
+30 July 2020 to 12 August 2020,32,South West,0.03,0.00,0.10,Non-overlapping 14-day weighted estimates,"5,473,731",1642.119411,0,5473.73137
+13 August 2020 to 26 August 2020,34,South West,0.07,0.01,0.21,Non-overlapping 14-day weighted estimates,"5,473,731",3831.611959,547.373137,11494.83588
+27 August 2020 to 09 September 2020,36,South West,0.05,0.01,0.16,Non-overlapping 14-day weighted estimates,"5,473,731",2736.865685,547.373137,8757.970192
+10 September 2020 to 23 September 2020,38,South West,0.13,0.05,0.26,Non-overlapping 14-day weighted estimates,"5,473,731",7115.850781,2736.865685,14231.70156
+24 September 2020 to 07 October 2020,40,South West,0.37,0.25,0.53,Non-overlapping 14-day weighted estimates,"5,473,731",20252.80607,13684.32843,29010.77626
+08 October 2020 to 21 October 2020,42,South West,0.46,0.35,0.60,Non-overlapping 14-day weighted estimates,"5,473,731",25179.1643,19158.0598,32842.38822
+22 October 2020 to 04 November 2020,44,South West,0.79,0.61,1.00,Non-overlapping 14-day weighted estimates,"5,473,731",43242.47783,33389.76136,54737.3137
+05 November 2020 to 18 November 2020,46,South West,0.92,0.74,1.12,Non-overlapping 14-day weighted estimates,"5,473,731",50358.32861,40505.61214,61305.79135
+19 November 2020 to 02 December 2020,48,South West,0.60,0.46,0.77,Non-overlapping 14-day weighted estimates,"5,473,731",32842.38822,25179.1643,42147.73155
+03 December 2020 to 16 December 2020,50,South West,0.51,0.39,0.67,Non-overlapping 14-day weighted estimates,"5,473,731",27916.02999,21347.55234,36674.00018
+17 December 2020 to 30 December 2020,52,South West,0.74,0.57,0.95,Non-overlapping 14-day weighted estimates,"5,473,731",40505.61214,31200.26881,52000.44802
+31 December 2020 to 13 January 2021,54,South West,1.33,1.11,1.58,Non-overlapping 14-day weighted estimates,"5,473,731",72800.62722,60758.41821,86484.95565
+14 January 2021 to 27 January 2021,56,South West,1.36,1.14,1.62,Non-overlapping 14-day weighted estimates,"5,473,731",74442.74664,62400.53762,88674.4482
+28 January 2021 to 10 February 2021,58,South West,0.94,0.77,1.13,Non-overlapping 14-day weighted estimates,"5,473,731",51453.07488,42147.73155,61853.16448
+11 February 2021 to 24 February 2021,60,South West,0.47,0.34,0.63,Non-overlapping 14-day weighted estimates,"5,473,731",25726.53744,18610.68666,34484.50763
+25 February 2021 to 10 March 2021,62,South West,0.31,0.21,0.45,Non-overlapping 14-day weighted estimates,"5,473,731",16968.56725,11494.83588,24631.79117
+11 March 2021 to 24 March 2021,64,South West,0.14,0.08,0.23,Non-overlapping 14-day weighted estimates,"5,473,731",7663.223918,4378.985096,12589.58215
+25 March 2021 to 07 April 2021,66,South West,0.10,0.04,0.20,Non-overlapping 14-day weighted estimates,"5,473,731",5473.73137,2189.492548,10947.46274
+08 April 2021 to 21 April 2021,68,South West,0.03,0.01,0.08,Non-overlapping 14-day weighted estimates,"5,473,731",1642.119411,547.373137,4378.985096
+22 April 2021 to 05 May 2021,70,South West,0.01,0.00,0.04,Non-overlapping 14-day weighted estimates,"5,473,731",547.373137,0,2189.492548
+06 May 2021 to 19 May 2021,72,South West,0.03,0.00,0.08,Non-overlapping 14-day weighted estimates,"5,473,731",1642.119411,0,4378.985096
+20 May 2021 to 02 June 2021,74,South West,0.08,0.02,0.20,Non-overlapping 14-day weighted estimates,"5,473,731",4378.985096,1094.746274,10947.46274
+03 June 2021 to 16 June 2021,76,South West,0.12,0.05,0.26,Non-overlapping 14-day weighted estimates,"5,473,731",6568.477644,2736.865685,14231.70156
+17 June 2021 to 30 June 2021,78,South West,0.36,0.22,0.57,Non-overlapping 14-day weighted estimates,"5,473,731",19705.43293,12042.20901,31200.26881
+01 July 2021 to 14 July 2021,80,South West,0.77,0.58,1.01,Non-overlapping 14-day weighted estimates,"5,473,731",42147.73155,31747.64195,55284.68684
+15 July 2021 to 28 July 2021,82,South West,0.96,0.71,1.26,Non-overlapping 14-day weighted estimates,"5,473,731",52547.82115,38863.49273,68969.01527
+29 July 2021 to 11 August 2021,84,South West,1.17,0.90,1.49,Non-overlapping 14-day weighted estimates,"5,473,731",64042.65703,49263.58233,81558.59742
+12 August 2021 to 25 August 2021,86,South West,1.30,1.04,1.61,Non-overlapping 14-day weighted estimates,"5,473,731",71158.50781,56926.80625,88127.07506
+26 August 2021 to 08 September 2021,88,South West,1.59,1.29,1.94,Non-overlapping 14-day weighted estimates,"5,473,731",87032.32879,70611.13468,106190.3886
+09 September 2021 to 22 September 2021,90,South West,1.03,0.82,1.27,Non-overlapping 14-day weighted estimates,"5,473,731",56379.43311,44884.59724,69516.3884
+23 September 2021 to 06 October 2021,92,South West,1.75,1.48,2.05,Non-overlapping 14-day weighted estimates,"5,473,731",95790.29898,81011.22428,112211.4931
+07 October 2021 to 20 October 2021,94,South West,2.43,2.14,2.76,Non-overlapping 14-day weighted estimates,"5,473,731",133011.6723,117137.8513,151074.9858
+21 October 2021 to 03 November 2021,96,South West,2.72,2.40,3.06,Non-overlapping 14-day weighted estimates,"5,473,731",148885.4933,131369.5529,167496.1799
+04 November 2021 to 17 November 2021,98,South West,1.74,1.50,2.01,Non-overlapping 14-day weighted estimates,"5,473,731",95242.92584,82105.97055,110022.0005
+18 November 2021 to 01 December 2021,100,South West,1.71,1.46,1.99,Non-overlapping 14-day weighted estimates,"5,473,731",93600.80643,79916.47801,108927.2543
