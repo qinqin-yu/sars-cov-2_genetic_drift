@@ -23,7 +23,7 @@ if __name__ == '__main__':
 
     # SPECIFY GLOBAL PARAMETERS
     # Parameters for processing - change to fit needs
-    parallel = True # Whether to use parallel processing (best for a large number of data files, on cluster)
+    parallel = False # Whether to use parallel processing (best for a large number of data files, on cluster)
     processes = 16 # If using parallel processing, the number of parallel processes to run
 
     # Filenames - change to fit needs
@@ -51,15 +51,18 @@ if __name__ == '__main__':
                              '../data/lineages/B-1-177/B-1-177|2021-02-22|694.5/is_pillar_2/',
                              '../data/lineages/alpha/alpha|2021-06-20|61.5/is_pillar_2/',
                              '../data/lineages/delta/delta|2022-01-25|49.5+58.5/is_pillar_2/']
+    
+#    variant_param_folders = ['../data/lineages/alpha/alpha|2021-06-20|61.5/is_pillar_2/']
+
     for variant_param_folder in variant_param_folders:
         location_folders = glob.glob(variant_param_folder + '/*/')
         for location_folder in location_folders:
             basename = os.path.basename(location_folder[:-1])
-            if basename!='England':
-                path_folder = location_folder
-                output_folder = path_folder + 'inference_results/'
-                params = (path_folder, counts_filename, total_counts_filename, output_folder, output_filename)
-                params_all.append(params)      
+#            if (basename!='England')&(basename!='East Midlands')&(basename!='East of England')&(basename!='North East')&(basename!='South West')&(basename!='Yorkshire and The Humber')&(basename!='North West')&(basename!='South East'):
+            path_folder = location_folder
+            output_folder = path_folder + 'inference_results/'
+            params = (path_folder, counts_filename, total_counts_filename, output_folder, output_filename)
+            params_all.append(params)      
     
 #    params_all = params_all[11:] # comment out for testing
 #    
@@ -89,7 +92,7 @@ if __name__ == '__main__':
                   output_filename)
             
     # SUMMARIZE RESULTS
-    for params in params_all[8:10]:
+    for params in params_all:
         path_folder = params[0]
         total_counts_filename = params[2]
         output_folder = params[3]

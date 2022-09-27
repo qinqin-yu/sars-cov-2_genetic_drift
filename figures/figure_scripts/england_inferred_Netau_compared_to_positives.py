@@ -10,6 +10,7 @@ import pandas as pd
 import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
+import datetime
 from matplotlib.lines import Line2D
 font = {'family' : 'arial',
         'size'   : 18}
@@ -35,7 +36,6 @@ i = 1
 for name, summary in summary_all.groupby(['variant']):
     p = ax[0].plot(summary['date'], summary['Netau_HMM_median'], zorder = 10, color = colors[i], marker = 'o', markeredgecolor = 'k')#, capsize = 5)
     ax[0].fill_between(summary['date'], summary['Netau_HMM_95%_ci_lower'], summary['Netau_HMM_95%_ci_upper'], color=p[0].get_color(), alpha=0.3)
-
     cases = summary['I']*summary['frac_variant']
     cases_lower = summary['I_lower']*summary['frac_variant']
     cases_upper = summary['I_upper']*summary['frac_variant']
@@ -66,11 +66,14 @@ labels.append('Positives in community')
 order = [0,4,2,1,3,5,6]
 ax[0].legend([lines[idx] for idx in order],[labels[idx] for idx in order], loc = 'lower right', fontsize = 12, handlelength = 1)
 ax[0].set_yscale('log')
+ax[0].set_ylabel('Population size')
 ax[0].set_ylim([10**1.5, 10**6.5])
+ax[0].text(datetime.datetime(2021, 2, 18), 10**2.1, 'Inferred $\\tilde{N}_e(t)$')
+ax[0].text(datetime.datetime(2021, 1, 15), 10**6.2, 'Positives in community', alpha = 0.7)
 
 ax[1].set_ylabel('Measurement noise \n overdispersion , $c_t$')
 ax[1].set_ylim([0, 25])
-ax[1].xaxis.set_major_formatter(mdates.DateFormatter('%b\n%Y'))
+ax[1].xaxis.set_major_formatter(mdates.DateFormatter('%b\n%d\n%Y'))
 
 fig.align_ylabels(ax)
 plt.tight_layout()

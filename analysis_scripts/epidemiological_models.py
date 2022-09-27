@@ -60,13 +60,14 @@ for w in merged['Epiweek']:
     w = int(np.floor(w))
     if w<=53:
         week = Week(2020, w)
-    else:
+    elif w<=105:
         week = Week(2021, w-53)
+    else:
+        week = Week(2022, w-105)
     dates.append(week.startdate()+timedelta(days=3))
     
 dates = np.array(dates)
 merged['date'] = dates
-
 ######## GET SIR AND SEIR MODEL NETAU FOR ALL VARIANTS OR LINEAGES ########
 
 merged = emf.get_sir_model_Netau(merged, gamma_I)
@@ -186,6 +187,20 @@ summary = summary.merge(num_sequences, how = 'left', on = 'Epiweek')
 summary = summary.merge(df_Netau_variant, on = 'Epiweek', how = 'left')
 summary_all = summary_all.append(summary)
 summary_all = summary_all[summary_all['Epiweek']>0]
+
+dates = []
+for w in summary_all['Epiweek']:
+    w = int(np.floor(w))
+    if w<=53:
+        week = Week(2020, w)
+    elif w<=105:
+        week = Week(2021, w-53)
+    else:
+        week = Week(2022, w-105)
+    dates.append(week.startdate()+timedelta(days=3))
+    
+dates = np.array(dates)
+summary_all['date'] = dates
 
 summary_all.reset_index(inplace = True, drop = True)
 summary_all.to_csv('../data/epidemiological_models/epidemiological_models_Netau_inferred_Netau_by_variant.csv')

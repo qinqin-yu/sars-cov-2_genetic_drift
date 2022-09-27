@@ -26,7 +26,7 @@ sns.set(style = 'whitegrid', font_scale = 1.5)
 
 import misc_useful_functions as muf
 
-path_folder = '/Users/qinqinyu/Dropbox/sars-cov-2_github/data/lineages/'
+path_folder = '../../data/lineages/'
 folders = []
 
 variant_folders = glob.glob(path_folder + '*/')
@@ -71,8 +71,8 @@ for folder in folders:
     ax[i,j].set_yscale('log')
     ax[i,j].set_ylabel('Inferred $N_e\\tau$')
     ax[i,j].set_title(label_dict[variant_param[0]])
-    ax[i,j].xaxis.set_major_formatter(mdates.DateFormatter('%b\n%Y'))
-    ax[i,j].xaxis.set_major_locator(plt.MaxNLocator(5))
+    ax[i,j].xaxis.set_major_formatter(mdates.DateFormatter('%b\n%d\n\'%y'))
+#    ax[i,j].xaxis.set_major_locator(plt.MaxNLocator(5))
     
     if (i==0)&(j==0):
         ax[i,j].legend(fontsize = 12)
