@@ -25,7 +25,12 @@ def infer_Ne_c(path_folder, \
                       output_folder, \
                       output_filename, \
                       excluded_lineages = [], lineage_col_name = 'lineage', T=9, mincount = 20, minfreq = 0.01, numtrials = 100):
-         
+    
+    # Currnetly, moving window must be an odd number (can update in future instatiations of code)
+    if T%2 == 0:
+        print('Moving window (T) must be an odd number') 
+        return
+    
     # Importing data
     counts_all=pd.read_csv(path_folder + counts_filename, index_col = 0)
     counts_all = counts_all[~counts_all[lineage_col_name].isin(excluded_lineages)]
@@ -92,7 +97,6 @@ def infer_Ne_c(path_folder, \
                     # Confidence interval estimation of Ne using profile likelihood
                     Netau_HMM = output[0]
                     c_all_HMM = output[1]
-                    print(Netau_HMM, c_all_HMM)
                     Netau_HMM_lower, Netau_HMM_upper = lh.confidence_interval_Ne(Netau_HMM, data_list, shareddata, c_all_HMM)
                 
                 else:
