@@ -194,6 +194,20 @@ for i in range(len(Rt_rel_alphas)):
     summary = summary.merge(df_Netau_variant, on = 'Epiweek', how = 'left')
     summary_all = summary_all.append(summary)
     summary_all = summary_all[summary_all['Epiweek']>0]
+        
+    dates = []
+    for w in summary_all['Epiweek']:
+        w = int(np.floor(w))
+        if w<=53:
+            week = Week(2020, w)
+        elif w<=105:
+            week = Week(2021, w-53)
+        else:
+            week = Week(2022, w-105)
+        dates.append(week.startdate()+timedelta(days=3))
+        
+    dates = np.array(dates)
+    summary_all['date'] = dates
     
     summary_all.reset_index(inplace = True, drop = True)
     summary_all.to_csv('../data/epidemiological_models/sensitivity_to_rt/epidemiological_models_Netau_inferred_Netau_by_variant_relRtalpha' + str(Rt_rel_alpha) + '_relRtdelta' + str(Rt_rel_delta) + '.csv')

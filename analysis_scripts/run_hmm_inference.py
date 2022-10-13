@@ -23,7 +23,7 @@ if __name__ == '__main__':
 
     # SPECIFY GLOBAL PARAMETERS
     # Parameters for processing - change to fit needs
-    parallel = False # Whether to use parallel processing (best for a large number of data files, on cluster)
+    parallel = True # Whether to use parallel processing (best for a large number of data files, on cluster)
     processes = 16 # If using parallel processing, the number of parallel processes to run
 
     # Filenames - change to fit needs
@@ -58,7 +58,7 @@ if __name__ == '__main__':
         location_folders = glob.glob(variant_param_folder + '/*/')
         for location_folder in location_folders:
             basename = os.path.basename(location_folder[:-1])
-            if (basename!='England')&(basename!='East Midlands')&(basename!='North East')&(basename!='South West')&(basename!='Yorkshire and The Humber'):
+            if (basename!='England')&(basename!='East Midlands')&(basename!='North East')&(basename!='South West')&(basename!='Yorkshire and The Humber')&(basename!='England_random_subsample_half')&(basename!='North West'):
                 path_folder = location_folder
                 output_folder = path_folder + 'inference_results/'
                 params = (path_folder, counts_filename, total_counts_filename, output_folder, output_filename)
