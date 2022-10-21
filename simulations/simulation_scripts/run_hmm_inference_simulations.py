@@ -22,7 +22,7 @@ if __name__ == '__main__':
 
     # SPECIFY GLOBAL PARAMETERS
     # Parameters for processing - change to fit needs
-    parallel = False # Whether to use parallel processing (best for a large number of data files, on cluster)
+    parallel = True # Whether to use parallel processing (best for a large number of data files, on cluster)
     processes = 4 # If using parallel processing, the number of parallel processes to run
 
     # Filenames - change to fit needs

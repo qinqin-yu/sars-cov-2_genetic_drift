@@ -1,0 +1,11 @@
+Reference,Date,Location,Method,Rt,Rtlower,Rtupper,k,klower,kupper,varZ,varZlower,varZupper,comment
+endo2020estimating,Beginning of pandemic to February 27 2020,Worldwide excluding China,Branching process model of number of imported and local cases,2.5,,,0.1,0.05,0.2,65,33.75,127.5,
+lau2020characterizing,March 1 to May 3 2020,Georgia (USA),Spatiotemporal transmission model fit to multiple data sources,2,0.5,3.5,0.39,0.125,0.65,12.26,0.88,101.5,
+kirkegaard2021variability,March 1 to November 1 2020,Denmark,Model fitting the case numbers across multiple regions,1.1,0.8,1.4,0.11,0.08,0.18,12.1,4.36,25.9,
+riou2020pattern,Beginning of pandemic until January 18 2020,China (Wuhan),Stochastic simulations fit to infected cases,2.2,1.4,3.8,0.54,0.014,6.95,11.16,1.68,1035.2,Error bars indicate 90% high density interval
+quiltyreconstructing,August to September 2020,UK,Model using empirical viral load trajectories and contact numbers,1.21,0.84,2.51,0.25,0.15,0.39,7.07,2.65,44.51,Assumes no self-isolation upon symptom onset or testing
+laxminarayan2020epidemiology,May 15 to August 1 2020,Tamil Nadu and Andhra Pradesh (India),Contact tracing and incidence,1.25,1.1,1.4,0.51,0.49,0.52,4.31,3.43,5.4,
+quiltyreconstructing,January to February 2021,UK,Model using empirical viral load trajectories and contact numbers,0.54,0.4,1.03,0.33,0.13,0.61,1.42,0.66,9.19,Assumes no self-isolation upon symptom onset or testing
+adam2020clustering,January 23 to April 28 2020,Hong Kong,Contact tracing,0.58,,,0.43,,,1.36,,,
+sun2021transmission,January 16 to April 3 2020,Hunan (China),Contact tracing,0.4,0.35,0.47,0.3,0.23,0.39,0.93,0.66,1.43,
+bi2020epidemiology,January 14 to February 12 2020,Shenzhen (China),Contact tracing,0.4,0.3,0.5,0.58,0.35,1.18,0.68,0.38,1.21,

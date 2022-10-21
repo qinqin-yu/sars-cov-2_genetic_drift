@@ -24,7 +24,7 @@ if __name__ == '__main__':
     # SPECIFY GLOBAL PARAMETERS
     # Parameters for processing - change to fit needs
     parallel = False # Whether to use parallel processing (best for a large number of data files, on cluster)
-    processes = 20 # If using parallel processing, the number of parallel processes to run
+    processes = 16 # If using parallel processing, the number of parallel processes to run
 
 #    output_filename = 'raw.csv'
 #    counts_filename = 'counts_lineages.csv'
@@ -76,7 +76,7 @@ if __name__ == '__main__':
                   counts_filename, \
                   total_counts_filename, \
                   output_folder, \
-                  output_filename, numtrials = 1)
+                  output_filename, numtrials = 20)
             
     # SUMMARIZE RESULTS
     for params in params_all:

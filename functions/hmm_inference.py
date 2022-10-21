@@ -24,7 +24,7 @@ def infer_Ne_c(path_folder, \
                       total_counts_filename, \
                       output_folder, \
                       output_filename, \
-                      excluded_lineages = [], lineage_col_name = 'lineage', T=9, mincount = 20, minfreq = 0.01, numtrials = 100):
+                      excluded_lineages = [], lineage_col_name = 'lineage', T=9, mincount = 20, minfreq = 0.01, numtrials = 100, delta_t = 1):
     
     # Currnetly, moving window must be an odd number (can update in future instatiations of code)
     if T%2 == 0:
@@ -40,7 +40,14 @@ def infer_Ne_c(path_folder, \
 #    counts_all = counts_all[0:10]
 
     epiweeks_all = counts_all.drop([lineage_col_name], axis = 1).columns
-
+    
+    # Drop times that are not every delta t interval
+    epiweeks_all_updated = epiweeks_all[::delta_t]
+    epiweeks_to_drop = np.array([epiweek for epiweek in epiweeks_all if epiweek not in epiweeks_all_updated])
+    counts_all.drop(labels = epiweeks_to_drop, axis = 'columns', inplace =True)
+    total_sampled_counts_all.drop(labels = epiweeks_to_drop, axis = 'columns', inplace =True)
+    epiweeks_all = epiweeks_all_updated
+    
     # Renaming epiweek format to floats (easier to work with later on)
     epiweeks_all_rename_dict = {}
     for epiweek in epiweeks_all:
