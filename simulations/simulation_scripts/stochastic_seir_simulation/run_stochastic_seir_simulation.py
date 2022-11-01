@@ -28,7 +28,7 @@ label_time = 75
 
 num_trials = 1
 
-output_path = '../simulation_data/stochastic_seir/'
+output_path = '../../simulation_data/stochastic_seir/'
 folder = 'N' + str(N) + '_R0' + str(R0)+ '_gammaE' + str(round(gamma_E,2)) + '_gammaI' + str(round(gamma_I,2)) + '_numlineages' + str(num_lineages) + '_labeltime' + str(label_time) + '/'
 
 if not os.path.exists(output_path + folder):

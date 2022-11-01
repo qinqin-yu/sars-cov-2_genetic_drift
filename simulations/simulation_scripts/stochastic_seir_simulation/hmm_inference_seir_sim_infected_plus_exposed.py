@@ -110,10 +110,10 @@ def run_inference(path_folder, output_folder, T=9, mincount = 20, minfreq = 0.01
             df_out_j['Netau_HMM_upper'] = [Netau_HMM_upper]
             df_out = df_out.append(df_out_j)
         df_out.reset_index(inplace = True, drop = True)
-        output_filename = 'inferred_Ne_T_' + str(T) + '_infected_and_exposed.csv'
+        output_filename = 'raw_infected_plus_exposed.csv'
         df_out.to_csv(output_folder + output_filename)
 
-path_folder = '../simulated_data/seir_netau/N1000000_R02_gammaE0.33_gammaI0.18_numlineages100_labeltime75/'
+path_folder = '../../simulation_data/stochastic_seir/N1000000_R02_gammaE0.33_gammaI0.18_numlineages100_labeltime75/'
 output_folder = path_folder + '/inferred_Ne_superlineage_combos_threshold_counts_freq/'    
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)

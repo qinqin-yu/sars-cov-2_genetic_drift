@@ -47,7 +47,8 @@ def infer_Ne_c(path_folder, \
     counts_all.drop(labels = epiweeks_to_drop, axis = 'columns', inplace =True)
     total_sampled_counts_all.drop(labels = epiweeks_to_drop, axis = 'columns', inplace =True)
     epiweeks_all = epiweeks_all_updated
-    
+    T = int((T-1)/delta_t+1)
+
     # Renaming epiweek format to floats (easier to work with later on)
     epiweeks_all_rename_dict = {}
     for epiweek in epiweeks_all:
@@ -59,7 +60,7 @@ def infer_Ne_c(path_folder, \
 
     # Initialize variables to save results to
     df_out = pd.DataFrame()
-    c_index = np.array(range(T))
+    c_index = np.arange(0, T*delta_t, delta_t) #np.array(range(T))
     c_index_str = ['c' + str(i) for i in c_index]
     c_MSD_index_str = ['c' + str(i) + '_MSD' for i in c_index]
     
@@ -121,9 +122,9 @@ def infer_Ne_c(path_folder, \
                 Netau_HMM = np.nan
                 Netau_HMM_lower = np.nan
                 Netau_HMM_upper = np.nan
-                
+            
             df_out_j['epiweek_start'] = [d1]
-            df_out_j['epiweek_middle'] = [float(d1)+(T-1)/2]
+            df_out_j['epiweek_middle'] = [float(d1)+(float(dl)-float(d1))/2]
             df_out_j['epiweek_end'] = [dl]
             df_out_j['superlineage_combo'] = [j]
             df_out_j[c_MSD_index_str] = [c_all.values[0]]
@@ -132,7 +133,8 @@ def infer_Ne_c(path_folder, \
             df_out_j['Netau_HMM'] = [Netau_HMM]
             df_out_j['Netau_HMM_lower'] = [Netau_HMM_lower]
             df_out_j['Netau_HMM_upper'] = [Netau_HMM_upper]
-            df_out_j['T'] = T
+            df_out_j['T'] = (T-1)*delta_t+1
+            df_out_j['delta_t'] = delta_t
             df_out = df_out.append(df_out_j)
     df_out.reset_index(inplace = True, drop = True)
     df_out.to_csv(output_folder + output_filename)
@@ -142,8 +144,10 @@ def summarize_results(raw_filename, output_folder, output_filename):
     epiweeks_recorded = np.unique(df_all[['epiweek_start', 'epiweek_middle', 'epiweek_end']])
     epiweeks = np.arange(np.min(epiweeks_recorded), np.max(epiweeks_recorded)+1)
     T = df_all['T'].values[0]
+    delta_t = df_all['delta_t'].values[0]
+    T = int((T-1)/delta_t+1)
     
-    c_index = np.array(range(T))
+    c_index = c_index = np.arange(0, T*delta_t, delta_t) #np.array(range(T))
 
     c_dict = {}
     c_columns = np.array(['c' + str(i) for i in c_index])
@@ -214,7 +218,8 @@ def summarize_results(raw_filename, output_folder, output_filename):
             summary = summary.append(pd.DataFrame({'Epiweek':[c_epiweek], 'c_MSD_median':c_median}))
         summary.loc[summary['Epiweek'] == c_epiweek, 'c_MSD_95%_ci_lower'] = c_2_5_percentile
         summary.loc[summary['Epiweek'] == c_epiweek, 'c_MSD_95%_ci_upper'] = c_97_5_percentile
-    summary['T'] = T
+    summary['T'] = (T-1)*delta_t+1
+    summary['delta_t'] = delta_t
     summary.sort_values('Epiweek', inplace = True)
     summary.reset_index(inplace = True, drop = True)
     summary.dropna(subset = ['Netau_HMM_median', 'c_median', 'Netau_MSD_median', 'c_MSD_median'], how = 'all', inplace = True)
