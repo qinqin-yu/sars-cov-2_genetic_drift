@@ -136,7 +136,7 @@ def deme_simulation(num_demes_filled_initially, num_demes, num_lineages, time, I
 
 def get_abundances(df_lineages, df, T, delta_t, Id):
     print('Getting abundaces from deme simulation')
-    total_time_long = T*200*delta_t
+    total_time_long = T*500*delta_t
     total_timesteps = int(total_time_long/delta_t)
     time_long = np.array(range(total_timesteps))*delta_t
     df_abundances = pd.DataFrame({'time':time_long})

@@ -64,7 +64,7 @@ if __name__ == '__main__':
                   counts_filename, \
                   total_counts_filename, \
                   output_folder, \
-                  output_filename, numtrials = 1)
+                  output_filename)
             
     # SUMMARIZE RESULTS
     for params in params_all:

@@ -56,7 +56,7 @@ def sampling_noise_all_lineages(Nseq, c, f):
 
 # Parameters
 Neis = [500, 5000]
-Nseqi = 100#10**3
+Nseqi = 1000#10**3
 c = 5
 
 total_epiweeks = 20

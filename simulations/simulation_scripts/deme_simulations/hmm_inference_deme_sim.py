@@ -7,9 +7,9 @@ Created on Thu Jun 24 13:21:45 2021
 """
 import sys
 
-bin_path = '../../bin'
+bin_path = '../../../functions'
 if bin_path not in sys.path:
-    sys.path.insert(1, '../../bin')
+    sys.path.insert(1, '../../../functions')
     
 import pandas as pd
 import scipy as sp 
@@ -19,7 +19,7 @@ import time
 import glob
 import os
 import matplotlib.pyplot as plt
-import format_data_v2 as fd
+import format_data as fd
 import analytical_likelihoods_no_emission as lh
 
 # HMM INFERENCE

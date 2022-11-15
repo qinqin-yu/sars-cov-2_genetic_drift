@@ -43,6 +43,14 @@ for shape in shapes:
     
     Net_label = os.path.basename(path_folder)
     summary = pd.read_csv(path_folder + '/inference_results/summary.csv', index_col = 0)
+    
+    true_Netau = pd.read_csv(path_folder + '/true_Netau.csv', index_col = 0)
+    true_Netau = pd.DataFrame({'Epiweek':true_Netau.columns.astype('float'), 'Netau_true':true_Netau.values[0]})
+    true_c = pd.read_csv(path_folder + '/true_c.csv', index_col = 0)
+    true_c = pd.DataFrame({'Epiweek':true_c.columns.astype('float'), 'c_true':true_c.values[0]})
+    summary = summary.merge(true_Netau, on = 'Epiweek')
+    summary = summary.merge(true_c, on = 'Epiweek')
+    
     total_neutral_counts = pd.read_csv(path_folder  + '/total_counts_lineages.csv', index_col = 0)
     neutral_counts = pd.read_csv(path_folder  + '/counts_lineages.csv', index_col = 0)
     epiweeks = neutral_counts.drop(['lineage'], axis = 1).columns

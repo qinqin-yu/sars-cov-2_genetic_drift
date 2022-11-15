@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH --nodes=1
-#SBATCH --cores=16
+#SBATCH --cores=1
 #SBATCH --time=48:00:00
-#SBATCH --qos=regular
+#SBATCH --qos=premium
 #SBATCH --constraint=haswell
 #SBATCH --account=m2282
 

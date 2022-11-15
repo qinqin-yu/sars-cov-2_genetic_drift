@@ -22,7 +22,7 @@ text = {'color':'black'}
 matplotlib.rc('font', **font)
 matplotlib.rc('text', **text)
 import seaborn as sns
-sns.set(style = 'whitegrid', font_scale = 1.5)
+sns.set(style = 'whitegrid', font_scale = 1.2)
 
 def counts_to_frequency(counts, total_counts, frac_neutral):
     # Function for getting frequencies from counts, frac_neutral, and total_counts
@@ -40,12 +40,20 @@ path_folder = path_folder_all + 'gaussian'
 
 Net_label = os.path.basename(path_folder)
 summary = pd.read_csv(path_folder + '/inference_results/summary.csv', index_col = 0)
+true_Netau = pd.read_csv(path_folder + '/true_Netau.csv', index_col = 0)
+true_Netau = pd.DataFrame({'Epiweek':true_Netau.columns.astype('float'), 'Netau_true':true_Netau.values[0]})
+true_c = pd.read_csv(path_folder + '/true_c.csv', index_col = 0)
+true_c = pd.DataFrame({'Epiweek':true_c.columns.astype('float'), 'c_true':true_c.values[0]})
+summary = summary.merge(true_Netau, on = 'Epiweek')
+summary = summary.merge(true_c, on = 'Epiweek')
+
 total_neutral_counts = pd.read_csv(path_folder  + '/total_counts_lineages.csv', index_col = 0)
 neutral_counts = pd.read_csv(path_folder  + '/counts_lineages.csv', index_col = 0)
 epiweeks = neutral_counts.drop(['lineage'], axis = 1).columns
 ones = pd.DataFrame([[1]*len(epiweeks)], columns = epiweeks)
 frequency = counts_to_frequency(neutral_counts, total_neutral_counts, ones)
 numlineages = np.count_nonzero(neutral_counts[epiweeks], axis=0)
+
 
 fig, ax = plt.subplots(4,1, figsize = (11, 11), sharex = True)
 

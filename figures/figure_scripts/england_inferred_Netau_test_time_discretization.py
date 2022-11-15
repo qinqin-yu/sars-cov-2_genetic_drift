@@ -16,6 +16,8 @@ import math
 import pandas as pd
 import misc_useful_functions as muf
 import os
+import seaborn as sns
+sns.set(style = 'whitegrid', font_scale = 1.5)
 
 variant_param_folders = ['../../data/lineages/pre_B-1-177/microreact/is_pillar_2/',
                          '../../data/lineages/B-1-177/B-1-177|2021-02-22|694.5/is_pillar_2/',
@@ -45,10 +47,10 @@ for i in range(len(variant_param_folders)):
     dates = muf.epiweeks2dates(delt2['Epiweek'])
     delt2['date'] = dates
 
-    p = ax[row, col].plot(delt1['date'], delt1['Netau_HMM_median'], zorder = 10, color = 'tab:blue', marker = 'o', markeredgecolor = 'k', label = 'every day')#, capsize = 5)
+    p = ax[row, col].plot(delt1['date'], delt1['Netau_HMM_median'], zorder = 10, color = 'tab:blue', marker = 'o', markeredgecolor = 'k', label = 'every week')#, capsize = 5)
     ax[row, col].fill_between(delt1['date'], delt1['Netau_HMM_95%_ci_lower'], delt1['Netau_HMM_95%_ci_upper'], color=p[0].get_color(), alpha=0.2)
 
-    p = ax[row, col].plot(delt2['date'], delt2['Netau_HMM_median']*2, zorder = 10, color = 'tab:orange', marker = 'o', markeredgecolor = 'k', label = 'every other day')#, capsize = 5)
+    p = ax[row, col].plot(delt2['date'], delt2['Netau_HMM_median']*2, zorder = 10, color = 'tab:orange', marker = 'o', markeredgecolor = 'k', label = 'every other week')#, capsize = 5)
     ax[row, col].fill_between(delt2['date'], delt2['Netau_HMM_95%_ci_lower']*2, delt2['Netau_HMM_95%_ci_upper']*2, color=p[0].get_color(), alpha=0.2)
 
     ax[row, col].set_yscale('log')
