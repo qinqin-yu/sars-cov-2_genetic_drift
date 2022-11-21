@@ -23,7 +23,7 @@ sns.set(style = 'whitegrid', font_scale = 1.3)
 
 summary_all = pd.read_csv('../../simulations/simulation_data/deme_simulations/inference_results/summary.csv', index_col = 0)
 fig, ax = plt.subplots(1, 1, figsize = (5, 4))
-for filled_demes_t0 in np.unique(summary_all['Filled demes t0'])[1:]:
+for filled_demes_t0 in np.unique(summary_all['Filled demes t0']):
     summary = summary_all[summary_all['Filled demes t0']==filled_demes_t0]
     ax.plot(summary['Deme size'], summary['mean_total_counts']/summary['Netau_HMM_median'], marker = 'o', linestyle = '', label = int(filled_demes_t0))
 
