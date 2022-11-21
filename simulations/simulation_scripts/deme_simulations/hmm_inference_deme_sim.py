@@ -26,9 +26,8 @@ import analytical_likelihoods_no_emission as lh
 
 # Parameters
 mincount = 20 # Minimum superlineage size
-p_transition=lambda x2, x1, f, beta: lh.normal(x2, x1, f, beta) # Normal 
-#p_transition=lambda x2, x1, f, beta: lh.sqrt_normal(x2, x1, f, beta) #Sqrt normal
-    
+minfreq = 0.01
+  
 path_folder = '../../simulation_data/deme_simulations/'
 output_folder = path_folder + 'inference_results/'
 if not os.path.isdir(output_folder):
@@ -37,21 +36,21 @@ if not os.path.isdir(output_folder):
 # Importing data
 filenames = glob.glob(path_folder + 'counts_t0_42_tl_50/demes_560000.0_lineages_200_filleddemes0_*_demeN_*_counts_t0_42_tl_50.csv')
 for filename in filenames:
-    #filename = 'counts_t0_42_tl_50/demes_560000.0_lineages_200_filleddemes0_5000_demeN_100_counts_t0_42_tl_50.csv'
     filename_only = os.path.basename(filename)
     filename_no_ending = filename_only[:filename_only.find('.csv')]
     counts=pd.read_csv(filename, index_col = 0)
-    counts_original = counts.copy()
     
     epiweeks = counts.drop(['lineage'], axis = 1).columns
     
+    counts = counts[epiweeks]
+    counts_original = counts.copy()
+
     d1=epiweeks[0]
     dl=epiweeks[-1]
     
 #    counts = counts[0:10]
     total_counts = counts[epiweeks].sum(axis = 0)
     total_counts = total_counts.to_frame().transpose()
-    #frac_neutral = pd.read_csv(path_folder + 'frac_neutral.csv', index_col = 0)
     
     numtrials = 100
     Netau_HMM_all = []
@@ -61,7 +60,7 @@ for filename in filenames:
     for i in range(numtrials):
         print(i)
         # Creating superlineages and formatting the data
-        counts = fd.create_superlineages(counts_original, d1, dl, mincount, seed = np.random.randint(10**5))
+        counts, frequency = fd.create_superlineages_counts_and_freq(counts_original, total_counts, d1, dl, mincount, minfreq, seed = np.random.randint(10**5))
         data_list = fd.create_data_list(counts, total_counts, epiweeks)
         
         # Inference
@@ -69,10 +68,10 @@ for filename in filenames:
         hmm_maxlikelihood = lambda x: lh.hmm_maxlikelihood_Ne(x[0], x[1])
         
         Netau_HMM = hmm_maxlikelihood([data_list, shareddata])
-        Netau_HMM_lower, Netau_HMM_upper = confidence_interval_Ne(data_list, shareddata)
-        Netau_HMM_all.append(Ne)
-        Netau_HMM_lower_all.append(Ne_lower)
-        Netau_HMM_upper_all.append(Ne_upper)
+        Netau_HMM_lower, Netau_HMM_upper = lh.confidence_interval_Ne(data_list, shareddata)
+        Netau_HMM_all.append(Netau_HMM)
+        Netau_HMM_lower_all.append(Netau_HMM_lower)
+        Netau_HMM_upper_all.append(Netau_HMM_upper)
 
     df = pd.DataFrame(data = {'Netau_HMM':Netau_HMM_all, 'Netau_HMM_lower':Netau_HMM_lower_all, 'Netau_HMM_upper':Netau_HMM_upper_all})
     df.to_csv(output_folder + filename_no_ending + '_raw.csv')
@@ -91,8 +90,7 @@ for file in files:
     demeN = float(filename[idx2+6:idx3])
     df = pd.read_csv(file, index_col = 0)
     if len(df)>0:
-#         Ne = df['Ne']
-        cond = df['Ne']<10**5
+        cond = df['Netau_HMM']<10**5
         Ne_median = np.median(df[cond]['Netau_HMM'])
         Ne_2_5_percentile = np.nanmedian(df[cond]['Netau_HMM_lower'])
         Ne_97_5_percentile = np.nanmedian(df[cond]['Netau_HMM_upper'])
@@ -121,4 +119,3 @@ for file in files:
 summary = summary.sort_values(by = ['Filled demes t0'])
 summary.reset_index(drop = True, inplace = True)
 summary.to_csv(path_folder + '/summary.csv')
-     

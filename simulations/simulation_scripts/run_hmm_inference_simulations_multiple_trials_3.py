@@ -14,6 +14,7 @@ if bin_path not in sys.path:
     
 import os
 import glob
+import numpy as np
 from multiprocessing import Pool
 
 import hmm_inference
@@ -22,12 +23,11 @@ if __name__ == '__main__':
 
     # SPECIFY GLOBAL PARAMETERS
     # Parameters for processing - change to fit needs
-    parallel = True # Whether to use parallel processing (best for a large number of data files, on cluster)
-    processes = 4 # If using parallel processing, the number of parallel processes to run
+    parallel = False # Whether to use parallel processing (best for a large number of data files, on cluster)
+    processes = 16 # If using parallel processing, the number of parallel processes to run
 
-    # Filenames - change to fit needs
-    output_filename = 'raw.csv'
-    counts_filename = 'counts_lineages.csv'
+#    output_filename = 'raw.csv'
+#    counts_filename = 'counts_lineages.csv'
     total_counts_filename = 'total_counts_lineages.csv'
 
     # GET LIST OF PARAMETERS TO RUN ANALYSES ON
@@ -36,10 +36,22 @@ if __name__ == '__main__':
     path_folders = glob.glob('../simulation_data/neutral/*/')
     for path_folder in path_folders:
         output_folder = path_folder + 'inference_results/'
-        params = (path_folder, counts_filename, total_counts_filename, output_folder, output_filename)
-        params_all.append(params)
+        counts_filenames = glob.glob(path_folder + 'counts_lineages_trial_*')
+        counts_filenames = np.sort(counts_filenames)
+        for counts_filename in counts_filenames:
+            counts_filename = os.path.basename(counts_filename)
+            
+            # Filenames - change to fit needs
+            trial_num_idx = counts_filename.find('counts_lineages_trial_')
+            trial_num_idx2 = counts_filename.find('.csv')
+            trial_num = counts_filename[trial_num_idx+22:trial_num_idx2]
+            output_filename = 'raw_trial_' + trial_num + '.csv'
+            total_counts_filename = 'total_counts_lineages_trial_' + trial_num + '.csv'
+            
+            params = (path_folder, counts_filename, total_counts_filename, output_folder, output_filename)
+            params_all.append(params)
        
-#    params_all = params_all[0:1] # for testing, comment out when doing full run
+    params_all = params_all[8:12] # for testing, comment out when doing full run
     
     # MAKE OUTPUT FOLDERS
     for params in params_all:
@@ -64,7 +76,7 @@ if __name__ == '__main__':
                   counts_filename, \
                   total_counts_filename, \
                   output_folder, \
-                  output_filename)
+                  output_filename, numtrials = 20)
             
     # SUMMARIZE RESULTS
     for params in params_all:
@@ -72,7 +84,11 @@ if __name__ == '__main__':
         total_counts_filename = params[2]
         output_folder = params[3]
         raw_filename = params[4]
-        
         raw_filename = output_folder + raw_filename
-        output_filename = 'summary.csv'
+
+        trial_num_idx = raw_filename.find('raw_trial_')
+        trial_num_idx2 = raw_filename.find('.csv')
+        trial_num = raw_filename[trial_num_idx+10:trial_num_idx2]
+        output_filename = 'summary_trial_' + trial_num + '.csv'
+
         hmm_inference.summarize_results(raw_filename, output_folder, output_filename)

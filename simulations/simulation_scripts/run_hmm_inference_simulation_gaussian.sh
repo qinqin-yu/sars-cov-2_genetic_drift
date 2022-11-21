@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --nodes=1
-#SBATCH --cores=4
+#SBATCH --cores=1
 #SBATCH --time=48:00:00
 #SBATCH --qos=premium
 #SBATCH --constraint=haswell
@@ -8,4 +8,4 @@
 
 module load python/3.7-anaconda-2019.07
 source activate imac
-srun python -u run_hmm_inference_simulations.py > run_hmm_inference_simulations.out
+srun python -u run_hmm_inference_simulation_gaussian.py > run_hmm_inference_simulation_gaussian.out

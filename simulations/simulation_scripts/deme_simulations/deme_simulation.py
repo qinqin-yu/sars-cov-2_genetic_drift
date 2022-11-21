@@ -32,8 +32,8 @@ delta_t = 0.1 # timestep in daysfor deterministic SEIR
 num_demes = 5.6*10**5 # England population size ### SHOULD CHANGE TO REFLECT DEME SIZE
 num_lineages = 200
 
-Ns = [10, 100, 200]#[10, 50, 100, 200] #  100 # individual per deme
-num_demes_filled_initially_all = [1000, 2000, 5000]#[100, 1000, 2000, 5000]
+Ns = [10, 50, 100, 200] # individuals per deme
+num_demes_filled_initially_all = [1000, 2000, 5000]
 
 if not os.path.exists(output_path):
     os.makedirs(output_path)
