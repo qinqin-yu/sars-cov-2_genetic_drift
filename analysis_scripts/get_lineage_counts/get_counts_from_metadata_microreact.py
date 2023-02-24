@@ -94,7 +94,7 @@ def save_counts_from_metadata_microreact(metadata_pillar2, variant_column, outpu
     frac_variant_with_b_1_177 = total_counts_lineages_with_b_1_177/total_counts_metadata
     frac_variant_with_b_1_177.to_csv(output_folder + '/frac_variant_with_b_1_177.csv')
     
-path_folder = '../..data/lineages/'
+path_folder = '../../data/lineages/'
 
 # Unzip metadata file
 if not os.path.exists(path_folder + 'metadata_cog_england_2022-01-16_with_sublineages_with_istree.csv'):

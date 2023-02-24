@@ -74,7 +74,7 @@ def save_counts_from_metadata(metadata_pillar2, variant_column, tree_column, out
    
 ########
      
-path_folder = '../..data/lineages/'
+path_folder = '../../data/lineages/'
 
 # Unzip metadata file
 if not os.path.exists(path_folder + 'metadata_cog_england_2022-01-16_with_sublineages_with_istree.csv'):
