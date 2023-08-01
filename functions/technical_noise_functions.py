@@ -79,8 +79,8 @@ def get_kappa(counts, epiweeks, total_sampled_counts, mincount = 20, min_freq = 
 
     for dp in daypairs:
         d1,d2=dp
-        N1=np.int(Nt[d1])
-        N2=np.int(Nt[d2])
+        N1=int(Nt[d1])
+        N2=int(Nt[d2])
     
         cd = frequency_int[[d1,d2]]
     
@@ -119,7 +119,7 @@ def fit_time_varying_technical_noise_bounded(k_df, epiweeks, plot = 0, savefig =
 
     def obj_single(kappa,kappa_err,c1,c2,Ne,c1coeff,c2coeff,Necoeff):
         kappa_est = c1*c1coeff + c2*c2coeff + (1/Ne)*Necoeff
-        return ((kappa_est - np.float(kappa))**2/np.float(kappa_err))
+        return ((kappa_est - float(kappa))**2/float(kappa_err))
     
     def add_obj(theta,k_df,tv):
         mse=0
