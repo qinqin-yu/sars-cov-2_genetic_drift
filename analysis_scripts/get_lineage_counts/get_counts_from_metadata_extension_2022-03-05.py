@@ -73,22 +73,14 @@ def save_counts_from_metadata(metadata_pillar2, variant_column, output_folder):
 ########
      
 path_folder = '../../data/lineages/'
-metadata_path_folder = '../../data/metadata/'
 
 # Unzip metadata files
-if not os.path.exists(path_folder + 'sublincog_england_2022-03-25_with_sublineages_created2023Jul30.csv'):
-    with ZipFile(path_folder + 'sublincog_england_2022-03-25_with_sublineages_created2023Jul30.csv.zip', 'r') as zip_ref:
+if not os.path.exists(path_folder + 'metadata_cog_england_2022-03-25_with_sublineages.csv'):
+    with ZipFile(path_folder + 'metadata_cog_england_2022-03-25_with_sublineages.csv.zip', 'r') as zip_ref:
         zip_ref.extractall(path_folder)
 
-if not os.path.exists(metadata_path_folder + 'cog_england_2022-03-25_metadata.csv'):
-    with ZipFile(metadata_path_folder + 'cog_england_2022-03-25_metadata.csv.zip', 'r') as zip_ref:
-        zip_ref.extractall(metadata_path_folder)
-    
 # Load metadata files
-sublineages = pd.read_csv(path_folder + 'sublincog_england_2022-03-25_with_sublineages_created2023Jul30.csv', index_col = 0)
-metadata = pd.read_csv(path_folder + 'cog_england_2022-03-25_metadata.csv', index_col = 0)
-
-metadata_original = metadata.merge(sublineages, on = 'sequence_name')
+metadata_original = pd.read_csv(path_folder + 'metadata_cog_england_2022-03-25_with_sublineages.csv', index_col = 0)
 
 if 'lineage' in metadata_original.columns:
     metadata_original.rename(columns={'lineage':'pango_lineage'}, inplace = True)
