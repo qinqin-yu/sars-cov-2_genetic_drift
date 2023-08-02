@@ -57,25 +57,21 @@ def figure_label_tree_cut(label):
 path_folders = ['../../data/lineages/delta/delta|2022-01-25|50.5+58.5',
                        '../../data/lineages/delta/delta_sublineage50.5+58.5']
 
-fig, ax = plt.subplots(1, 1, figsize = (15, 4), sharex = True)
+labels = ['2022-01-25', '2022-03-25']
+i = 0
+
+fig, ax = plt.subplots(1, 1, figsize = (10, 4), sharex = True)
 
 for path_folder in path_folders:
-
-    # label = path_folder.split('/')[-2]
-    # label_for_figure, variant, tree_date, dcut_labels = figure_label_tree_cut(label)
-
     summary = pd.read_csv(path_folder + '/is_pillar_2/England/inference_results/summary.csv', index_col = 0)
 
-    # color = colors[variant][dcut_idx[variant]]
-
-    p = ax.plot(epiweeks_to_dates(summary['Epiweek']), summary['Netau_HMM_median'], zorder = 10)#, capsize = 5, linestyle = linestyles[linestyle_idx[variant]])
+    p = ax.plot(epiweeks_to_dates(summary['Epiweek']), summary['Netau_HMM_median'], zorder = 10, label = labels[i])
     ax.fill_between(epiweeks_to_dates(summary['Epiweek']), summary['Netau_HMM_95%_ci_lower'], summary['Netau_HMM_95%_ci_upper'], color=p[0].get_color(), alpha=0.2)
-    # linestyle_idx[variant] = linestyle_idx[variant] + 1
-    # dcut_idx[variant]+=1
     ax.xaxis.set_major_formatter(mdates.DateFormatter('%b\n%Y'))
     ax.set_ylabel('Inferred $\\tilde{N}_e(t)}$')
     ax.set_yscale('log')
-    ax.legend(loc = (1.01, -0.15), fontsize = 12, title = '{Tree date, Variant, $d_{\mathrm{cut}}$ (substitutions per site)}')
+    ax.legend(title = 'Data until')
+    i+=1
     
 plt.tight_layout()
 plt.savefig('../../figures/figure_outputs/england_inferred_Netau_extension_2022-03-25.png', dpi = 300)
