@@ -54,16 +54,20 @@ def figure_label_tree_cut(label):
         label_for_figure = '{' + tree_date + ', ' + variant_label + ', $d_{\mathrm{cut}}^{\mathrm{(1)}}$=' + str(dcut_labels[0]) + ', $d_{\mathrm{cut}}^{\mathrm{(2)}}$=' + str(dcut_labels[1]) + '}'
     return label_for_figure, variant, tree_date, dcut_labels
 
-path_folders = ['../../data/lineages/delta/delta|2022-01-25|50.5+58.5',
-                       '../../data/lineages/delta/delta_sublineage50.5+58.5']
+# path_folders = ['../../data/lineages/delta/delta|2022-01-25|50.5+58.5',
+                       # '../../data/lineages/delta/delta_sublineage50.5+58.5']
 
-labels = ['2022-01-25', '2022-03-25']
+filenames = ['../../data/lineages/delta/delta|2022-01-25|50.5+58.5/is_pillar_2/England/inference_results/summary.csv',
+             '../../data/lineages/delta/delta_sublineage50.5+58.5/is_pillar_2/England/inference_results/summary.csv',
+             '../../data/lineages/delta/delta_sublineage50.5+58.5/is_pillar_2/England/inference_results/summary_moving_window_5_wks.csv']
+
+labels = ['2022-01-25', '2022-03-25', '2022-03-25, T=5wks']
 i = 0
 
 fig, ax = plt.subplots(1, 1, figsize = (10, 4), sharex = True)
 
-for path_folder in path_folders:
-    summary = pd.read_csv(path_folder + '/is_pillar_2/England/inference_results/summary.csv', index_col = 0)
+for filename in filenames:
+    summary = pd.read_csv(filename, index_col = 0)
 
     p = ax.plot(epiweeks_to_dates(summary['Epiweek']), summary['Netau_HMM_median'], zorder = 10, label = labels[i])
     ax.fill_between(epiweeks_to_dates(summary['Epiweek']), summary['Netau_HMM_95%_ci_lower'], summary['Netau_HMM_95%_ci_upper'], color=p[0].get_color(), alpha=0.2)
