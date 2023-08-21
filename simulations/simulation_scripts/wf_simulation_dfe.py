@@ -21,6 +21,14 @@ total_burnin_time = 10 # weeks
 numlineages = 500
 numtrials = 1
 
+# # Fitness
+# s_mean = 0
+# s_std = 0
+
+bloom_neher_2023 = pd.read_csv('../../data/fitness/bloom_neher_2023_aamut_fitness_all.csv')
+dfe = bloom_neher_2023['delta_fitness'].values
+dfe = dfe[dfe<0]
+
 # Mutation rate
 mu = 0.01
 
@@ -69,7 +77,7 @@ for i in range(len(Net_all)):
     Net = Net_all[i]
     Net_label = Net_all_labels[i]
     
-    output_folder = path_folder + 'neutral/' + Net_label + '/'
+    output_folder = path_folder + 'dfe/' + Net_label + '/'
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
         
@@ -82,25 +90,4 @@ for i in range(len(Net_all)):
     counts_output_filename = 'counts_lineages.csv'
     total_counts_output_filename = 'total_counts_lineages.csv'
     fitness_filename = 'fitnesses.csv'
-    wsf.run_simulation(path_folder, output_folder, counts_output_filename, total_counts_output_filename, fitness_filename, total_epiweeks, total_burnin_time, Net, ct, Nseq, mu, numlineages)
-
-# Multipel trials of gaussian-shaped Netau
-Net = Net_gaussian
-Net_label = 'gaussian'
-numtrials = 20
-
-output_folder = path_folder + 'neutral/' + Net_label + '/'
-if not os.path.exists(output_folder):
-    os.makedirs(output_folder)
-    
-ct_df = pd.DataFrame([ct], columns = t)
-Net_df = pd.DataFrame([Net], columns = t)
-
-ct_df.to_csv(output_folder + 'true_c.csv')
-Net_df.to_csv(output_folder + 'true_Netau.csv')
-
-for trial in range(numtrials):
-    counts_output_filename = 'counts_lineages_trial_' + str(trial) + '.csv'
-    total_counts_output_filename = 'total_counts_lineages_trial_' + str(trial) + '.csv'
-    fitness_filename = 'fitnesses_trial_' + str(trial) + '.csv'
-    wsf.run_simulation(path_folder, output_folder, counts_output_filename, total_counts_output_filename, fitness_filename, total_epiweeks, total_burnin_time, Net, ct, Nseq, mu, numlineages)
+    wsf.run_simulation(path_folder, output_folder, counts_output_filename, total_counts_output_filename, fitness_filename, total_epiweeks, total_burnin_time, Net, ct, Nseq, mu, numlineages, dfe)

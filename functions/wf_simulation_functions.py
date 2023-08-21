@@ -46,10 +46,7 @@ def gaussian(x, mu, sig, Nmin, Nmax):
 def rectangular(x, x1, x2, Nmin, Nmax):
     return (Nmax-Nmin)*(np.heaviside(x-x1, 0.5)-np.heaviside(x-x2, 0.5))+Nmin
 
-def fitness(numlineages, s_mean, s_std):
-    return np.random.normal(loc=s_mean, scale=s_std, size=numlineages)
-
-def run_simulation(path_folder, output_folder, counts_output_filename, total_counts_output_filename, fitness_filename, total_epiweeks, total_burnin_time, Net, ct, Nseq, s_mean, s_std, mu, numlineages):
+def run_simulation(path_folder, output_folder, counts_output_filename, total_counts_output_filename, fitness_filename, total_epiweeks, total_burnin_time, Net, ct, Nseq, mu, numlineages, dfe=[0]):
     
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
@@ -58,7 +55,7 @@ def run_simulation(path_folder, output_folder, counts_output_filename, total_cou
     t = np.arange(0, total_epiweeks).astype('float')
     f0 = np.array([1/numlineages]*numlineages)
     n0 = np.array([1]*numlineages)
-    s0 = fitness(numlineages, s_mean, s_std)
+    s0 = np.random.choice(dfe, size=numlineages)
 
     #initialize
     f = f0
@@ -77,7 +74,7 @@ def run_simulation(path_folder, output_folder, counts_output_filename, total_cou
         n = n-n_mut
         n = np.append(n, np.ones(n_mut_total))
         f = n/Nei
-        s = np.append(s, fitness(n_mut_total, s_mean, s_std))
+        s = np.append(s, np.random.choice(dfe, size=n_mut_total))
         
     # Drop lineages that have already gone extinct
     s = s[f>0]
@@ -112,7 +109,7 @@ def run_simulation(path_folder, output_folder, counts_output_filename, total_cou
             n = n-n_mut
             n = np.append(n, np.ones(n_mut_total))
             f = n/Nei
-            s = np.append(s, fitness(n_mut_total, s_mean, s_std))
+            s = np.append(s, np.random.choice(dfe, size=n_mut_total))
             counts_sim_all = counts_sim_all.append(pd.DataFrame({'lineage':np.arange(lineage_counter, lineage_counter + n_mut_total)}))
             counts_sim_actual_all = counts_sim_actual_all.append(pd.DataFrame({'lineage':np.arange(lineage_counter, lineage_counter + n_mut_total)}))
 
@@ -139,7 +136,7 @@ def run_simulation(path_folder, output_folder, counts_output_filename, total_cou
 #    counts_sim_actual_all.to_csv(output_folder + counts_actual_output_filename)
     total_neutral_counts_sim.to_csv(output_folder + total_counts_output_filename)
     
-    if (s_mean!=0)&(s_std!=0):
+    if np.array(dfe).any()!=0:
         lineage_fitnesses = pd.DataFrame({'lineage':counts_sim_all['lineage'],  's':s})
         lineage_fitnesses.to_csv(output_folder + fitness_filename)
     
