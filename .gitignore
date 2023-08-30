@@ -6,3 +6,4 @@ data/lineages/metadata_cog_england_2022-03-25_with_sublineages.csv
 *.out
 *.sh
 *__MACOSX/
+simulations/simulation_scripts/*.txt
