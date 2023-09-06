@@ -16,7 +16,7 @@ import wf_simulation_functions as wsf
 
 # PARAMETERS
 # General
-total_epiweeks = 100 # weeks
+total_epiweeks = 30 # weeks
 total_burnin_time = 10 # weeks
 numlineages = 500
 numtrials = 1
@@ -37,8 +37,8 @@ Nseqmin = 500
 Nseqmax = 2*10**4
 
 # Netau
-Netau_mu = 50
-Netau_sig = 10
+# Netau_mu = 50
+# Netau_sig = 10
 Netau_min = 500
 Netau_max = 10**4
 
@@ -48,12 +48,12 @@ v = 2 # approximate variance
 
 # PREP INPUTS FOR SIMULATIONS
 t = np.arange(0, total_epiweeks)
-Net_gaussian = wsf.gaussian(t, Netau_mu, Netau_sig, Netau_min, Netau_max)
-Net_rectangular = wsf.rectangular(t, Netau_mu-Netau_sig, Netau_mu+Netau_sig, Netau_min, Netau_max)
+# Net_gaussian = wsf.gaussian(t, Netau_mu, Netau_sig, Netau_min, Netau_max)
+# Net_rectangular = wsf.rectangular(t, Netau_mu-Netau_sig, Netau_mu+Netau_sig, Netau_min, Netau_max)
 Net_constant = np.array([Netau_min + (Netau_max-Netau_min)/2]*total_epiweeks)
 
-Net_all = [Net_gaussian, Net_rectangular]#, Net_constant]
-Net_all_labels = ['gaussian', 'rectangular']#, 'constant']
+Net_all = [Net_constant]
+Net_all_labels = ['constant']
 
 theta = v/m
 k = m**2/v
