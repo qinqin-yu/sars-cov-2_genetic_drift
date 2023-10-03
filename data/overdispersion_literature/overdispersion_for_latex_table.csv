@@ -1,5 +1,5 @@
 Reference,Date,Location,Method,Rt,Rtlower,Rtupper,k,klower,kupper,varZ,varZlower,varZupper,comment
-miller2020full,"February 23 to April 22, 2020",Israel,Phylodynamics,2.5,2,3,,0.02,0.1,,65,627.5,Conversion from fraction of infected individuals responsible for 80% of all secondary infections to dispersion parameters using gamma distributed individual reproductive numbers
+miller2020full,February 23 to April 22 2020,Israel,Phylodynamics,2.5,2,3,,0.02,0.1,,65,627.5,Conversion from fraction of infected individuals responsible for 80% of all secondary infections to dispersion parameters using gamma distributed individual reproductive numbers
 endo2020estimating,Beginning of pandemic to February 27 2020,Worldwide excluding China,Branching process model of number of imported and local cases,2.5,,,0.1,0.05,0.2,65,33.75,127.5,
 lau2020characterizing,March 1 to May 3 2020,Georgia (USA),Spatiotemporal transmission model fit to multiple data sources,2,0.5,3.5,0.39,0.125,0.65,12.26,0.88,101.5,
 kirkegaard2021variability,March 1 to November 1 2020,Denmark,Model fitting the case numbers across multiple regions,1.1,0.8,1.4,0.11,0.08,0.18,12.1,4.36,25.9,
