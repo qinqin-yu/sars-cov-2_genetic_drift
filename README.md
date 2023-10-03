@@ -2,7 +2,7 @@
  Code for reproducing analysis in manuscript: 
  
 **Title**: 
-Lineage frequency time series reveal elevated levels of genetic drift in SARS-CoV-2 transmission in England [[bioRxiv preprint](https://www.biorxiv.org/content/10.1101/2022.11.21.517390v1)]
+Lineage frequency time series reveal elevated levels of genetic drift in SARS-CoV-2 transmission in England [[bioRxiv preprint](https://www.biorxiv.org/content/10.1101/2022.11.21.517390v2)]
 
 **Authors**: 
 QinQin Yu, Joao Ascensao, Takashi Okada, The COVID-19 Genomics UK (COG-UK) Consortium, Olivia Boyd, Erik Volz, and Oskar Hallatschek
