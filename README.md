@@ -8,7 +8,7 @@ Lineage frequency time series reveal elevated levels of genetic drift in SARS-Co
 QinQin Yu, Joao Ascensao, Takashi Okada, The COVID-19 Genomics UK (COG-UK) Consortium, Olivia Boyd, Erik Volz, and Oskar Hallatschek
  
 **Abstract**:
-Random genetic drift in the population-level dynamics of an infectious disease outbreak results from the randomness of inter-host transmission and the randomness of host recovery or death. The strength of genetic drift has been found to be high for SARS-CoV-2 due to superspreading, and this is expected to substantially impact the disease epidemiology and evolution. Noise that results from the measurement process, such as biases in data collection across time, geographical areas, etc., can potentially confound estimates of genetic drift as both processes contribute "noise" to the data. To address this challenge, we develop and validate a method to jointly infer genetic drift and measurement noise from time-series lineage frequency data. We apply this method to over 490,000 SARS-CoV-2 genomic sequences from England collected between March 2020 and December 2021 by the COVID-19 Genomics UK (COG-UK) consortium. We find that even after correcting for measurement noise, the strength of genetic drift is consistently, throughout time, higher than that expected from the observed number of COVID-19 positive individuals in England by 1 to 3 orders of magnitude. Corrections taking into account epidemiological dynamics (susceptible-infected-recovered or susceptible-exposed-infected-recovered models) do not explain the discrepancy. Moreover, the levels of genetic drift that we observe are higher than the estimated levels of superspreading found by modeling studies that incorporate data on actual contact statistics in England. We discuss how even in the absence of superspreading, high levels of genetic drift can be generated via community structure in the host contact network. Our results suggest that further investigations of heterogeneous host contact structure may be important for understanding the high levels of genetic drift observed for SARS-CoV-2 in England.
+Genetic drift in infectious disease transmission results from randomness of transmission and host recovery or death. The strength of genetic drift for SARS-CoV-2 transmission is expected to be high due to high levels of superspreading, and this is expected to substantially impact disease epidemiology and evolution. However, we don't yet have an understanding of how genetic drift changes over time or across locations. Furthermore, noise that results from data collection can potentially confound estimates of genetic drift. To address this challenge, we develop and validate a method to jointly infer genetic drift and measurement noise from time-series lineage frequency data. Our method is highly scalable to increasingly large genomic datasets, which overcomes a limitation in commonly used phylogenetic methods. We apply this method to over 490,000 SARS-CoV-2 genomic sequences from England collected between March 2020 and December 2021 by the COVID-19 Genomics UK (COG-UK) consortium and separately infer the strength of genetic drift for pre-B.1.177, B.1.177, Alpha, and Delta. We find that even after correcting for measurement noise, the strength of genetic drift is consistently, throughout time, higher than that expected from the observed number of COVID-19 positive individuals in England by 1 to 3 orders of magnitude, which cannot be explained by literature values of superspreading. Our estimates of genetic drift will be informative for parameterizing evolutionary models and studying potential mechanisms for increased drift.
 
 # Description of repository
 
@@ -23,10 +23,12 @@ Random genetic drift in the population-level dynamics of an infectious disease o
 ### analysis_scripts/
 This folder contains all analysis scripts used for analyzing the actual data of lineage frequency time series in England. 
 - cut_tree/: Code for cutting the phylogenetic tree to create lineages.
-- get_lineage_counts/: Code for getting the number of sequences in each lineage (data reformatting). 
-- run_hmm_inference/: Code for running the inference of effective population size and measurement noise overdispersion. 
-- fitness/: Code for jointly inferring the selection coefficient of each lineage and the population-wide effective population size. 
 - epidemiological_models/: Code for calculating the effective population size for SIR and SEIR compartmental models using data of the number of infected individuals and the effective reproduction number.
+- fitness/: Code for jointly inferring the selection coefficient of each lineage and the population-wide effective population size. Also includes code for testing the effect of balancing selection using analytical theory.
+- get_lineage_counts/: Code for getting the number of sequences in each lineage (data reformatting).
+- model_checking/: Code for checking how consistent the HMM model is with the data.
+- run_hmm_inference/: Code for running the inference of effective population size and measurement noise overdispersion. 
+- superspreading/: Code for converting superspreading measurements into overdispersion parameters.
 
 ### functions/
 Functions called by analysis and simulation codes. 
@@ -35,8 +37,9 @@ Functions called by analysis and simulation codes.
 Data from England used in analysis. 
 
 ### simulations/
-Code and output of 3 types of simulations: 
+Code and output of 4 types of simulations: 
 - simulation_scripts/wf_simulation.py: Wright-Fisher simulations with observation step for validating the method
+- simulation_scripts/wf_simulation_dfe_successive_mutations.py: Wright-Fisher simulations with mutations drawn from a distribution of fitness effects used for testing the effect of balancing selection.
 - simulation_scripts/stochastic_seir_simulation/: Stochastic SEIR model for validating calculation of SEIR model effective population size
 - simulation_scripts/deme_simulations/: Simulations of deme structure for testing its effect on the effectie population size. 
 
