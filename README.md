@@ -30,6 +30,9 @@ This folder contains all analysis scripts used for analyzing the actual data of 
 - run_hmm_inference/: Code for running the inference of effective population size and measurement noise overdispersion. 
 - superspreading/: Code for converting superspreading measurements into overdispersion parameters.
 
+### conda_envs/
+Conda environment files that can be used to [create the environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) in Mac or Linux. 
+
 ### functions/
 Functions called by analysis and simulation codes. 
 
